@@ -1265,7 +1265,7 @@ Fecha: ${new Date().toLocaleString()}
                     </div>
                     
                     <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-                      <h5 className="font-medium text-gray-900 mb-2">Instrucciones:</h5>
+                      <h5 className="font-medium text-gray-900 mb-2">{t('tutorialStepByStepInstructions')}:</h5>
                       <ul className="text-sm text-gray-600 space-y-1">
                         <li>• Cada mesa tendrá su propio código QR único</li>
                         <li>• Los clientes escanean el código para acceder al menú</li>
