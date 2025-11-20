@@ -344,11 +344,10 @@ export const FloatingFooter: React.FC<FloatingFooterProps> = ({
                           {dayNames[day]}
                         </h5>
                         <h5
-                          className="text-gray-600"
+                          className="font-medium"
                           style={{
                             color:textColor,
                             fontFamily: theme.primary_font || 'Inter',
-
                           }}
                         >
                           {hours.is_open
