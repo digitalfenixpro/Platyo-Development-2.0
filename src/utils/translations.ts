@@ -2051,6 +2051,7 @@ const translations: Record<Language, Translations> = {
     // Additional Settings Strings
     config_toast_error: 'Error',
     config_toast_error1: 'Hubo un problema al guardar la configuración.',
+    config_toast_error2: 'Hubo un problema al enviar la solicitud de soporte.',
     config_hours_subtitle: 'Configura los horarios de atención de tu restaurante',
     preparation_time_title: 'Tiempo de Preparación',
     prep_time_label: 'Tiempo estimado de preparación',
@@ -3661,6 +3662,7 @@ const translations: Record<Language, Translations> = {
     // Additional Settings Strings
     config_toast_error: 'Error',
     config_toast_error1: 'There was a problem saving the settings.',
+    config_toast_error2: 'There was a problem sending the support request.',
     config_hours_subtitle: 'Configure your restaurant operating hours',
     preparation_time_title: 'Preparation Time',
     prep_time_label: 'Estimated preparation time',
