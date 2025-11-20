@@ -1255,7 +1255,7 @@ Fecha: ${new Date().toLocaleString()}
                                     });
                                 }}
                               >
-                                Descargar
+                                {t('download')}
                               </Button>
                               </div>
                             </div>
