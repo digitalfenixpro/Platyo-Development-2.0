@@ -143,7 +143,7 @@ export const FloatingFooter: React.FC<FloatingFooterProps> = ({
               <h5
                 className="font-medium"
                 style={{
-                  fontFamily: theme.primary_font || 'Inter',
+                  fontFamily: theme.secondary_font || 'Inter',
                   color: secondaryTextColor,
                 }}
               >
