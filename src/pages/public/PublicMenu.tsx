@@ -1306,7 +1306,11 @@ export const PublicMenu: React.FC = () => {
               )}
               {restaurant.settings.social_media?.whatsapp && (
                 <a
-                  href={restaurant.settings.social_media.whatsapp} 
+                  href={
+                    restaurant.settings.social_media.whatsapp
+                      ? `https://wa.me/${restaurant.settings.social_media.whatsapp}`
+                      : '#'
+                  } 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 hover:opacity-90 transition-colors rounded-lg"
