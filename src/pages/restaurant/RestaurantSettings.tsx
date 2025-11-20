@@ -693,7 +693,7 @@ Fecha: ${new Date().toLocaleString()}
   </div>
 
   <div className="flex-1 w-full">
-    <h3 className="text-base md:text-lg font-semibold text-gray-900 mb-2">{t('title')}</h3>
+    <h3 className="text-base md:text-lg font-semibold text-gray-900 mb-2">{t('title_public_menu')}</h3>
     <p className="text-sm text-gray-600 mb-4">
       {t('public_menu.description')}
     </p>
