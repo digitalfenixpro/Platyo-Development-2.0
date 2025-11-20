@@ -1195,7 +1195,7 @@ export const PublicMenu: React.FC = () => {
                   stroke: secondaryTextColor,
                 }}
               />
-              <h3
+              <h5
                 className="font-medium"
                 style={{
                   fontFamily: theme.primary_font || 'Inter',
@@ -1203,7 +1203,7 @@ export const PublicMenu: React.FC = () => {
                 }}
               >
                 {restaurant.address}
-              </h3>
+              </h5>
             </div>
             <div className="flex items-center gap-2">
               {restaurant.settings.social_media?.website && (
