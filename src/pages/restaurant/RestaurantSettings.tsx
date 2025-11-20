@@ -1267,10 +1267,10 @@ Fecha: ${new Date().toLocaleString()}
                     <div className="mt-6 p-4 bg-gray-50 rounded-lg">
                       <h5 className="font-medium text-gray-900 mb-2">{t('tutorialStepByStepInstructions')}:</h5>
                       <ul className="text-sm text-gray-600 space-y-1">
-                        <li>•{t('qr_hint_unique_code')}</li>
-                        <li>•{t('qr_scan_menu')}</li>
-                        <li>•{t('qr_auto_detect')}</li>
-                        <li>•{t('qr_print_download')}</li>
+                        <li>• {t('qr_hint_unique_code')}</li>
+                        <li>• {t('qr_scan_menu')}</li>
+                        <li>• {t('qr_auto_detect')}</li>
+                        <li>• {t('qr_print_download')}</li>
                       </ul>
                     </div>
                   </div>
