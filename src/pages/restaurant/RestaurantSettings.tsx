@@ -711,7 +711,7 @@ Fecha: ${new Date().toLocaleString()}
           <button
             onClick={() => {
               navigator.clipboard.writeText(`${window.location.origin}/${formData.domain}`);
-              showToast('success', t('copied_title'), t('copied_message'), 2000);
+              showToast('success', t('copied_title_public_menu'), t('copied_message'), 2000);
             }}
             className="px-3 py-2 bg-gray-100 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-200 transition-colors w-full sm:w-auto"
           >
