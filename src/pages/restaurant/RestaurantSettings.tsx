@@ -154,8 +154,8 @@ export const RestaurantSettings: React.FC = () => {
     } catch (error) {
       showToast(
         'error',
-        'Error',
-        'Hubo un problema al guardar la configuración.',
+        t('config_toast_error'),
+        t('config_toast_error1'),
         4000
       );
     } finally {
