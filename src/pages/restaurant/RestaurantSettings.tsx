@@ -1100,7 +1100,7 @@ Fecha: ${new Date().toLocaleString()}
                           updateFormData('settings.delivery.pricing_tiers', newTiers);
                         }}
                       >
-                        Agregar Tarifa de Delivery
+                        {t('delivery_prices')}
                       </Button>
                     </div>
                   </div>
