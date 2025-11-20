@@ -1222,7 +1222,7 @@ Fecha: ${new Date().toLocaleString()}
                                   }
                                 }}
                               >
-                                Imprimir
+                                {t('print')}
                               </Button>
                               <Button
                                 size="sm"
