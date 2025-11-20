@@ -1079,7 +1079,7 @@ export const PublicMenu: React.FC = () => {
                         className="flex justify-between items-center py-2 border-b "
                         style={{ borderColor: textColor }}
                       >
-                        <span
+                        <h5
                           className="font-medium"
                           style={{
                             color: textColor,
@@ -1087,15 +1087,15 @@ export const PublicMenu: React.FC = () => {
                           }}
                         >
                           {dayNames[day]}
-                        </span>
-                        <span
+                        </h5>
+                        <h5
                           className="text-gray-600"
                           style={{ fontFamily: theme.text_color || 'Inter' }}
                         >
                           {hours.is_open
                             ? `${hours.open} - ${hours.close}`
                             : 'Cerrado'}
-                        </span>
+                        </h5>
                       </div>
                     );
                   }
