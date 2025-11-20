@@ -3869,7 +3869,7 @@ const translations: Record<Language, Translations> = {
     copy: 'Copy',
     copied_title: 'Copied',
     copied_message: 'URL copied to clipboard',
-    view_menu: 'View Menu"
+    view_menu: 'View Menu',
     addToCart: 'Add to Cart',
     cart: 'Cart',
     checkout: 'Checkout',
