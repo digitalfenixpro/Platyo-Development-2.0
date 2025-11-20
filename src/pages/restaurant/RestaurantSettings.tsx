@@ -1049,7 +1049,7 @@ Fecha: ${new Date().toLocaleString()}
                           </div>
                           <div className="w-32">
                             <Input
-                              label="Pedido Máximo ($)"
+                              label={t('max_order_label')}
                               type="number"
                               step="0.01"
                               value={tier.max_order_amount || 0}
