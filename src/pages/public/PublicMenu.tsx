@@ -1055,7 +1055,7 @@ export const PublicMenu: React.FC = () => {
               className="text-xl font-bold mb-4"
               style={{
                 color: textColor,
-                fontFamily: theme.secondary_font || 'Poppins',
+                fontFamily: theme.primary_font || 'Poppins',
               }}
             >
               Horarios de Atención
