@@ -931,10 +931,14 @@ Fecha: ${new Date().toLocaleString()}
                         </svg>
                       </div>
                       <input
-                        type="url"
+                        type="tel"
                         value={formData.settings.social_media?.whatsapp || ''}
-                        onChange={(e) => updateFormData('settings.social_media.whatsapp', e.target.value)}
-                        placeholder="+1234567890"
+                        onChange={(e) => {
+                          // Limpiar espacios y caracteres no permitidos
+                          const cleanNumber = e.target.value.replace(/[^0-9]/g, '');
+                          updateFormData('settings.social_media.whatsapp', cleanNumber);
+                        }}
+                        placeholder="573001234567"
                         className="pl-10 w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-500 focus:border-gray-500"
                       />
                     </div>
