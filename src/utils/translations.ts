@@ -3659,6 +3659,8 @@ const translations: Record<Language, Translations> = {
     website_label: 'Website',
     website_placeholder: 'https://your-restaurant.com',
     // Additional Settings Strings
+    config_toast_error: 'Error',
+    config_toast_error1: 'There was a problem saving the settings.',
     config_hours_subtitle: 'Configure your restaurant operating hours',
     preparation_time_title: 'Preparation Time',
     prep_time_label: 'Estimated preparation time',
