@@ -2049,6 +2049,7 @@ const translations: Record<Language, Translations> = {
     website_label: 'Sitio Web',
     website_placeholder: 'https://tu-restaurante.com',
     // Additional Settings Strings
+    status_closed_unknown: 'Desconocido',
     config_toast_error: 'Error',
     config_toast_error1: 'Hubo un problema al guardar la configuración.',
     config_toast_error2: 'Hubo un problema al enviar la solicitud de soporte.',
