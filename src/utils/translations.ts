@@ -3864,7 +3864,7 @@ const translations: Record<Language, Translations> = {
     
     // Public Menu
     title: 'Public Menu',
-    description: 'Share this link with your customers so they can view your menu and place orders',
+    description_public_menu: 'Share this link with your customers so they can view your menu and place orders',
     your_custom_url: 'Your custom URL:',
     copy: 'Copy',
     copied_title: 'Copied',
