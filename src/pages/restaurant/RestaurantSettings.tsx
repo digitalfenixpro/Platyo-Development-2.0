@@ -1112,7 +1112,7 @@ Fecha: ${new Date().toLocaleString()}
           {activeTab === 'tables' && (
             <div className="space-y-4 md:space-y-6">
               <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-                <h3 className="text-base md:text-lg font-medium text-gray-900">Pedidos en Mesa</h3>
+                <h3 className="text-base md:text-lg font-medium text-gray-900">{t('tableOrders')}</h3>
                 <div className="flex items-center gap-2">
                   <input
                     type="checkbox"
