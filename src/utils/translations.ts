@@ -3863,6 +3863,13 @@ const translations: Record<Language, Translations> = {
     canChangeAnytime: 'You can change plans at any time.',
     
     // Public Menu
+    title: 'Public Menu',
+    description: 'Share this link with your customers so they can view your menu and place orders',
+    your_custom_url: 'Your custom URL:',
+    copy: 'Copy',
+    copied_title: 'Copied',
+    copied_message: 'URL copied to clipboard',
+    view_menu: 'View Menu"
     addToCart: 'Add to Cart',
     cart: 'Cart',
     checkout: 'Checkout',
