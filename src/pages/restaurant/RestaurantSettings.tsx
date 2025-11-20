@@ -322,15 +322,15 @@ Fecha: ${new Date().toLocaleString()}
   };
 
   const tabs = [
-    { id: 'general', name: 'General', icon: Globe },
-    { id: 'hours', name: 'Horarios', icon: Clock },
-    { id: 'social', name: 'Redes Sociales', icon: Globe },
-    { id: 'delivery', name: 'Delivery', icon: Truck },
-    { id: 'tables', name: 'Pedidos en Mesa', icon: QrCode },
-    { id: 'promo', name: 'Promocional', icon: Megaphone },
-    { id: 'theme', name: 'Tema', icon: Palette },
-    { id: 'billing', name: 'Facturación', icon: FileText },
-    { id: 'support', name: 'Soporte', icon: HelpCircle },
+    { id: 'general', name: t('tab_general'), icon: Globe },
+    { id: 'hours', name: t('tab_horarios'), icon: Clock },
+    { id: 'social', name: t('tab_redes'), icon: Globe },
+    { id: 'delivery', name: t('tab_domicilios'), icon: Truck },
+    { id: 'tables', name: t('tab_mesa'), icon: QrCode },
+    { id: 'promo', name: t('tab_promociones'), icon: Megaphone },
+    { id: 'theme', name: t('tab_temas'), icon: Palette },
+    { id: 'billing', name: t('tab_facturacion'), icon: FileText },
+    { id: 'support', name: t('tab_soporte'), icon: HelpCircle },
   ];
 
   if (!formData) {
