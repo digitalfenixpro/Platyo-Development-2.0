@@ -1140,7 +1140,7 @@ Fecha: ${new Date().toLocaleString()}
                   </div>
                   
                   <div>
-                    <h4 className="text-md font-medium text-gray-900 mb-4">{t('qrCodes')}</h4>
+                    <h4 className="text-md font-medium text-gray-900 mb-4">{t('table_qr_codes_title')}</h4>
                     <p className="text-sm text-gray-600 mb-4">
                       Los códigos QR permiten a los clientes acceder directamente al menú desde su mesa.
                     </p>
