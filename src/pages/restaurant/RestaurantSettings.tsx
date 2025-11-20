@@ -725,7 +725,7 @@ Fecha: ${new Date().toLocaleString()}
             className="inline-flex items-center justify-center px-3 py-2 bg-green-600 text-white rounded-lg text-sm font-medium hover:bg-green-700 transition-colors w-full sm:w-auto"
           >
             <Eye className="w-4 h-4 mr-2" />
-            {t('public_menu.view_menu')}
+            {t('view_menu')}
           </a>
         </div>
       </div>
