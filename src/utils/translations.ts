@@ -1973,9 +1973,6 @@ const translations: Record<Language, Translations> = {
     // MESSAGES/HINTS/ERRORS
     config_saved_title: 'Configuración Guardada',
     changes_saved_success: 'Los cambios han sido guardados exitosamente.',
-    error_title: 'Error',
-    save_error_message: 'Hubo un problema al guardar la configuración.',
-    support_send_error_message: 'Hubo un problema al enviar la solicitud de soporte.',
     file_too_large_title: 'Archivo muy grande',
     max_size_5mb_error: 'El tamaño máximo es 5MB',
     recommended_specs_title: 'Especificaciones recomendadas',
