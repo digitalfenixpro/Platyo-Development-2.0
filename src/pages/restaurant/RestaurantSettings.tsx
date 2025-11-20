@@ -1062,7 +1062,7 @@ Fecha: ${new Date().toLocaleString()}
                           </div>
                           <div className="w-32">
                             <Input
-                              label="Costo ($)"
+                              label={t('shipping_cost_label')}
                               type="number"
                               step="0.01"
                               value={tier.cost || 0}
