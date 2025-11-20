@@ -1036,7 +1036,7 @@ Fecha: ${new Date().toLocaleString()}
                           </div>
                           <div className="w-32">
                             <Input
-                              label=t('min_order_label')
+                              label={t('min_order_label')}
                               type="number"
                               step="0.01"
                               value={tier.min_order_amount || 0}
