@@ -1167,7 +1167,7 @@ Fecha: ${new Date().toLocaleString()}
                               />
                             </div>
                             <div className="mt-auto">
-                              <p className="text-sm font-medium text-gray-900 mb-3">Mesa {tableNum}</p>
+                              <p className="text-sm font-medium text-gray-900 mb-3">{t('mesa')} {tableNum}</p>
                               <div className="flex flex-col gap-2">
                               <Button
                                 size="sm"
