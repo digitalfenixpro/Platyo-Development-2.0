@@ -1121,7 +1121,7 @@ Fecha: ${new Date().toLocaleString()}
                     className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                   />
                   <span className="text-sm font-medium text-gray-700">
-                    {formData.settings.table_orders?.enabled ? t('enable') : t('disabled')}
+                    {formData.settings.table_orders?.enabled ? t('enabled') : t('disabled')}
                   </span>
                 </div>
               </div>
