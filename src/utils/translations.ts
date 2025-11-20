@@ -2251,6 +2251,13 @@ const translations: Record<Language, Translations> = {
     canChangeAnytime: 'Puedes cambiar de plan en cualquier momento.',
     
     // Public Menu
+    title_public_menu: 'Menú público',
+    description_public_menu: 'Comparte este link con tus clientes para que puedan ver tu menú y crear ordenes',
+    your_custom_url: 'Tu URL personalizada:',
+    copy: 'Copiar',
+    copied_title_public_menu: 'Copiado',
+    copied_message: 'URL copiada en el portapapeles',
+    view_menu: 'Ver menú',
     addToCart: 'Agregar al Carrito',
     cart: 'Carrito',
     checkout: 'Finalizar Pedido',
