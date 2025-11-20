@@ -1130,7 +1130,7 @@ Fecha: ${new Date().toLocaleString()}
                 <div className="space-y-4 md:space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                     <Input
-                      label="Número de Mesas"
+                      label={t('numberOfTables')}
                       type="number"
                       min="1"
                       max="100"
