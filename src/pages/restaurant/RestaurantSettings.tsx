@@ -265,8 +265,8 @@ Fecha: ${new Date().toLocaleString()}
       console.error('Error sending support request:', error);
       showToast(
         'error',
-        'Error',
-        'Hubo un problema al enviar la solicitud de soporte.',
+        t('config_toast_error'),
+        t('config_toast_error2'),
         4000
       );
     } finally {
