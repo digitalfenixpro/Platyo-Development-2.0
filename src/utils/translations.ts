@@ -3661,6 +3661,7 @@ const translations: Record<Language, Translations> = {
     website_label: 'Website',
     website_placeholder: 'https://your-restaurant.com',
     // Additional Settings Strings
+    status_closed_unknown: 'Unknown',
     config_toast_error: 'Error',
     config_toast_error1: 'There was a problem saving the settings.',
     config_toast_error2: 'There was a problem sending the support request.',
