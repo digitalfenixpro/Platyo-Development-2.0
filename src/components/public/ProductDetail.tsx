@@ -141,7 +141,8 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({ product, restauran
               style={{
                 fontSize: '14px',
                 color: secondaryTextColor,
-                lineHeight: '1.6'
+                lineHeight: '1.6',
+                fontFamily: theme.secondary_font || 'Inter'
               }}
             >
               {product.description}
