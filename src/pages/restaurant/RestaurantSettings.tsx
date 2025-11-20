@@ -1100,7 +1100,7 @@ Fecha: ${new Date().toLocaleString()}
                           updateFormData('settings.delivery.pricing_tiers', newTiers);
                         }}
                       >
-                        {t('delivery_prices')}
+                        {t('delivery_rates_title')}
                       </Button>
                     </div>
                   </div>
