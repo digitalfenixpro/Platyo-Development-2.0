@@ -1010,7 +1010,7 @@ Fecha: ${new Date().toLocaleString()}
                     className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                   />
                   <span className="text-sm font-medium text-gray-700">
-                    {formData.settings.delivery.enabled ? t('disabled') : t('enable')}
+                    {formData.settings.delivery.enabled ? t('enable') : t('disabled')}
                   </span>
                 </div>
               </div>
