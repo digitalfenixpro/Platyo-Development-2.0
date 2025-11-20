@@ -1083,14 +1083,14 @@ export const PublicMenu: React.FC = () => {
                           className="font-medium"
                           style={{
                             color: textColor,
-                            fontFamily: theme.primary_font || 'Inter',
+                            fontFamily: theme.secondary_font || 'Inter',
                           }}
                         >
                           {dayNames[day]}
                         </h5>
                         <h5
                           className="text-gray-600"
-                          style={{ fontFamily: theme.primary_font || 'Inter', }}
+                          style={{ fontFamily: theme.secondary_font || 'Inter', }}
                         >
                           {hours.is_open
                             ? `${hours.open} - ${hours.close}`
