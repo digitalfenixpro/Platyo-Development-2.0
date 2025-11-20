@@ -1156,7 +1156,7 @@ Fecha: ${new Date().toLocaleString()}
                             <div className="flex items-center justify-center mb-2">
                               <QrCode className="w-5 h-5 text-blue-600 mr-2" />
                               <span className="text-sm font-medium text-blue-800">
-                                Mesa {tableNum}
+                                {t('mesa')} {tableNum}
                               </span>
                             </div>
                             <div className="flex-1 flex items-center justify-center mb-4">
