@@ -290,7 +290,7 @@ Fecha: ${new Date().toLocaleString()}
       case 'closed':
         return <Badge variant="gray">{t('status_closed_simple')}</Badge>;
       default:
-        return <Badge variant="gray">Desconocido</Badge>;
+        return <Badge variant="gray">{t('status_closed_unknown')}</Badge>;
     }
   };
 
