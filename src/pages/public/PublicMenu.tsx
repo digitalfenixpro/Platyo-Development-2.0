@@ -1198,7 +1198,7 @@ export const PublicMenu: React.FC = () => {
               <h5
                 className="font-medium"
                 style={{
-                  fontFamily: theme.primary_font || 'Inter',
+                  fontFamily: theme.secondary_font || 'Inter',
                   cssText: `color: ${secondaryTextColor} !important;`
                 }}
               >
