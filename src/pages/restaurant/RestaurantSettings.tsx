@@ -693,7 +693,7 @@ Fecha: ${new Date().toLocaleString()}
   </div>
 
   <div className="flex-1 w-full">
-    <h3 className="text-base md:text-lg font-semibold text-gray-900 mb-2">{t('public_menu.title')}</h3>
+    <h3 className="text-base md:text-lg font-semibold text-gray-900 mb-2">{t('title')}</h3>
     <p className="text-sm text-gray-600 mb-4">
       {t('public_menu.description')}
     </p>
@@ -701,7 +701,7 @@ Fecha: ${new Date().toLocaleString()}
     <div className="bg-white rounded-lg p-4 border border-green-200 w-full">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
         <div className="flex-1 min-w-0">
-          <p className="text-xs text-gray-500 mb-1">{t('public_menu.your_custom_url')}</p>
+          <p className="text-xs text-gray-500 mb-1">{t('your_custom_url')}</p>
           <p className="text-sm font-mono text-gray-900 truncate">
             {window.location.origin}/{formData.domain}
           </p>
@@ -711,11 +711,11 @@ Fecha: ${new Date().toLocaleString()}
           <button
             onClick={() => {
               navigator.clipboard.writeText(`${window.location.origin}/${formData.domain}`);
-              showToast('success', t('public_menu.copied_title'), t('public_menu.copied_message'), 2000);
+              showToast('success', t('copied_title'), t('copied_message'), 2000);
             }}
             className="px-3 py-2 bg-gray-100 text-gray-700 rounded-lg text-sm font-medium hover:bg-gray-200 transition-colors w-full sm:w-auto"
           >
-            {t('public_menu.copy')}
+            {t('copy')}
           </button>
 
           <a
