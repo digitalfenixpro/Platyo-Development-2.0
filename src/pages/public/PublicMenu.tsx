@@ -1199,7 +1199,7 @@ export const PublicMenu: React.FC = () => {
                 className="font-medium"
                 style={{
                   fontFamily: theme.primary_font || 'Inter',
-                  cssText: `color: ${secondaryTextColor} !important;`,
+                  cssText: `color: ${secondaryTextColor} !important;`
                 }}
               >
                 {restaurant.address}
