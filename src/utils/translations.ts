@@ -3626,6 +3626,7 @@ const translations: Record<Language, Translations> = {
     last_update_label: 'Last Update',
     client_message_title: 'Client Message',
     admin_response_title: 'Support team Response',
+    support_information_response: '',
     additional_notes_title: 'Additional Notes',
     awaiting_response_title: 'Awaiting Response',
     awaiting_response_text: 'Your ticket is being reviewed by our team. We will contact you soon.',
