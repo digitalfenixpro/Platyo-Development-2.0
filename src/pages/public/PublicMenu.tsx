@@ -1058,7 +1058,7 @@ export const PublicMenu: React.FC = () => {
                 fontFamily: theme.primary_font || 'Poppins',
               }}
             >
-              Horarios de Atención
+              {t('businessHours')}
             </h3>
             <div className="space-y-3">
               {restaurant.settings.business_hours &&
