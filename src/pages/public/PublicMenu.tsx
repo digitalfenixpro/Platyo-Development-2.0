@@ -695,7 +695,7 @@ export const PublicMenu: React.FC = () => {
           {/* 2. SELECTOR DE VISTA (Derecha en móvil y desktop) */}
           {/* w-full mt-4 en móvil para ocupar el ancho debajo de las categorías.
                md:w-auto md:mt-0 en desktop para volver a su ancho y alinearse a la derecha. */}
-          <div className="flex justify-end gap-2 w-full md:w-auto mt-4 md:mt-0">
+          <div className="flex justify-end gap-2 w-full md:w-auto mt-4 md:mt-0 px-4">
 
               <button
                 onClick={() => setViewMode('list')}
@@ -783,9 +783,10 @@ export const PublicMenu: React.FC = () => {
                 return (
                   <div
                     key={product.id}
-                    className="rounded-xl shadow-sm hover:shadow-lg transition-all cursor-pointer overflow-hidden px-4"
+                    className="rounded-xl shadow-sm hover:shadow-lg transition-all cursor-pointer overflow-hidden"
                     onClick={() => setSelectedProduct(product)}
                     style={{
+
                       borderRadius:
                         theme.button_style === 'rounded'
                           ? '0.75rem'
