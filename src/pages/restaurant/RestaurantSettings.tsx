@@ -2354,7 +2354,7 @@ Fecha: ${new Date().toLocaleString()}
                             className="w-16 h-16 object-contain rounded"
                           />
                           <div className="flex-1">
-                            <p className="text-sm font-medium text-gray-900">Logo actual</p>
+                            <p className="text-sm font-medium text-gray-900">{t('ticket_current_logo')}</p>
                             <p className="text-xs text-gray-500">Click para cambiar</p>
                           </div>
                         <button
