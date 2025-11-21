@@ -1743,7 +1743,7 @@ Fecha: ${new Date().toLocaleString()}
                           onChange={(e) => updateFormData('settings.theme.secondary_color', e.target.value)}
                           className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm font-mono"
                         />
-                        <p className="text-xs text-gray-500 mt-1">Botones secundarios</p>
+                        <p className="text-xs text-gray-500 mt-1">{t('secundary_color_hint')}</p>
                       </div>
                     </div>
                   </div>
