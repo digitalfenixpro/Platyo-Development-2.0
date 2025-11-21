@@ -1887,6 +1887,7 @@ const translations: Record<Language, Translations> = {
     upload_vertical_imagen_promo_hint: 'Recomendado: 600x900px (formato vertical). Máximo 5MB. Formatos: JPG, PNG, WebP',
     featured_products_title: 'Productos Destacados',
     featured_products_hint: 'Selecciona hasta 5 productos para mostrar en el carrusel de destacados',
+    featured_products_label: 'Destacado',
     technical_support_title: 'Soporte Técnico',
     technical_support_subtitle: 'Crea un nuevo ticket de soporte o revisa el estado de los tickets existentes',
     create_new_ticket: 'Crear Nuevo Ticket de Soporte',
