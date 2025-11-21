@@ -1089,7 +1089,7 @@ export const PublicMenu: React.FC = () => {
                           {dayNames[day]}
                         </h5>
                         <h5
-                          className="text-gray-600"
+                          className="font-medium"
                           style={{ fontFamily: theme.secondary_font || 'Inter', }}
                         >
                           {hours.is_open
