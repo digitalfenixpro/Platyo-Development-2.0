@@ -1878,7 +1878,7 @@ const translations: Record<Language, Translations> = {
     resolution_number_label: 'Número de Resolución *',
     resolution_date_label: 'Fecha de Resolución *',
     numbering_range_label: 'Rango de Numeración - Desde *',
-    numbering_range_label: 'Rango de Numeración - Hasta *',
+    numbering_range_label_to: 'Rango de Numeración - Hasta *',
     from_label: 'Desde',
     to_label: 'Hasta',
     tax_tip_settings_title: 'Configuración de Impuestos y Propina',
