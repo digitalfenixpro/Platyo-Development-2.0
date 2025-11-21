@@ -2115,7 +2115,7 @@ Fecha: ${new Date().toLocaleString()}
               <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-100">
                 <h4 className="text-md font-semibold text-gray-900 mb-4 flex items-center gap-2">
                   <DollarSign className="w-5 h-5 text-blue-600" />
-                  Información Fiscal
+                  {t('fiscal_billing_information')}
                 </h4>
 
                 <div className="space-y-6">
