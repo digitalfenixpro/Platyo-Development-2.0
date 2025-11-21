@@ -1913,7 +1913,7 @@ Fecha: ${new Date().toLocaleString()}
                       className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" 
                     />
                     <label className="text-sm font-medium text-gray-700">
-                      {formData.settings.theme?.pathform ? 'Activado' : 'Desactivado'}
+                      {formData.settings.theme?.pathform ? t('enable') : t('disable')}
                     </label>
                   </div>
                 </div>
