@@ -1934,6 +1934,7 @@ const translations: Record<Language, Translations> = {
     message_label: 'Mensaje *',
     contact_email_label: 'Email de Contacto *',
     contact_phone_label: 'Teléfono de Contacto (opcional)',
+    support_problem_description: 'Descripción del Problema o Consulta *',
     send_ticket_button: 'Enviar Ticket',
     ticket_sent_title: 'Ticket Enviado',
     my_support_tickets_title: 'Mis Tickets de Soporte',
