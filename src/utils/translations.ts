@@ -1881,7 +1881,7 @@ const translations: Record<Language, Translations> = {
     numbering_range_label_to: 'Rango de Numeración - Hasta *',
     from_label: 'Desde',
     to_label: 'Hasta',
-    tax_tip_settings_title: 'Configuración de Impuestos y Propina',
+    tax_tip_settings_title: 'Configuración Propina',
     suggested_tip_label: '¿Aplica Propina Sugerida?',
     ticket_customization_title: 'Personalización del Ticket',
     show_logo_on_ticket_label: '¿Mostrar logo en el ticket?',
