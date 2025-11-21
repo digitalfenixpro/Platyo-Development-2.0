@@ -600,7 +600,7 @@ export const PublicMenu: React.FC = () => {
               fontFamily: theme.secondary_font || 'Poppins',
             }}
           >
-            Te presentamos nuestros
+            {t('presenting_featured_products')}
           </p>
           <h2
             className="text-5xl font-bold "
