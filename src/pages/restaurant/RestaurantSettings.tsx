@@ -2712,7 +2712,7 @@ Fecha: ${new Date().toLocaleString()}
                                 <p className="text-xs text-gray-500 line-clamp-1">{product.description}</p>
                               </div>
                               {isSelected && (
-                                <Badge variant="success">Destacado</Badge>
+                                <Badge variant="success">{t('featured_products_label')}</Badge>
                               )}
                             </label>
                           );
