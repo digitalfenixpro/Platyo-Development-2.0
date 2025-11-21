@@ -2636,7 +2636,7 @@ Fecha: ${new Date().toLocaleString()}
                     />
                     <span className="inline-flex items-center px-4 py-2 bg-white border border-gray-300 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50 hover:border-gray-400 transition-all shadow-sm w-full justify-center">
                       <Upload className="w-4 h-4 mr-2" />
-                      Subir imagen promocional vertical
+                      {t('upload_vertical_imagen_promo')}
                     </span>
                   </label>
                   <p className="text-xs text-gray-500">
