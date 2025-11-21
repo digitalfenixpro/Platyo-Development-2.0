@@ -2195,7 +2195,7 @@ Fecha: ${new Date().toLocaleString()}
 
                   {formData.settings.billing?.tieneResolucionDIAN && (
                     <div className="bg-white rounded-lg p-4 border border-blue-200 space-y-4">
-                      <h5 className="text-sm font-semibold text-gray-900">Datos de la Resolución DIAN</h5>
+                      <h5 className="text-sm font-semibold text-gray-900">{t('dian_resolution_data_title')}</h5>
 
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                         <div className="space-y-2">
