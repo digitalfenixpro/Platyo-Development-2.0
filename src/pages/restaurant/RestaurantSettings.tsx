@@ -2635,7 +2635,7 @@ Fecha: ${new Date().toLocaleString()}
                       <span className="text-white text-sm">✓</span>
                     </div>
                     <div>
-                      <h4 className="text-green-800 font-medium">¡Solicitud enviada!</h4>
+                      <h4 className="text-green-800 font-medium">{t('ticket_sent_title')}</h4>
                       <p className="text-green-700 text-sm">
                         Tu solicitud de soporte ha sido enviada. Te contactaremos pronto.
                       </p>
