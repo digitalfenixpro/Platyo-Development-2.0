@@ -2240,7 +2240,7 @@ Fecha: ${new Date().toLocaleString()}
 
                         <div className="space-y-2">
                           <label className="block text-sm font-medium text-gray-700">
-                            Rango de Numeración - Hasta *
+                            {t('numbering_range_label_to')}
                           </label>
                           <input
                             type="number"
