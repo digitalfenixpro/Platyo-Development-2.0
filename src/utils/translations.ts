@@ -3531,6 +3531,7 @@ const translations: Record<Language, Translations> = {
     ticket_buttom_logo_change: 'Click to change',
     ticket_final_message_label: 'Final Ticket Message (optional)',
     ticket_message_hint: 'Thank you for your visit! We hope to see you soon.',
+    ticket_message_hint2: 'This message will appear at the end of each ticket',
     promo_settings_title: 'Promotional Settings',
     promo_settings_subtitle: 'Set the promotional image and featured products in your public menu',
     vertical_promo_image_label: 'Vertical Promotional Image',
