@@ -2421,7 +2421,7 @@ Fecha: ${new Date().toLocaleString()}
                 <div className="flex items-start gap-2">
                   <FileText className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                   <div>
-                    <p className="text-sm text-green-800 font-medium">Sobre la configuración de facturación:</p>
+                    <p className="text-sm text-green-800 font-medium">{t('ticket_final_tips_title')}</p>
                     <ul className="text-xs text-green-700 mt-2 space-y-1 list-disc list-inside">
                       <li>Estos datos se utilizarán para generar tickets de pedido legalmente válidos en Colombia</li>
                       <li>Si eres responsable de IVA, el IVA se calculará y mostrará en cada ticket</li>
