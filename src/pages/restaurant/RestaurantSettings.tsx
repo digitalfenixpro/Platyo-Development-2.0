@@ -1923,7 +1923,7 @@ Fecha: ${new Date().toLocaleString()}
                 <div className="flex items-start gap-2">
                   <Palette className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                   <div>
-                    <p className="text-sm text-blue-800 font-medium">Sobre la personalización:</p>
+                    <p className="text-sm text-blue-800 font-medium">{t('about_customization_title')}</p>
                     <ul className="text-xs text-blue-700 mt-2 space-y-1 list-disc list-inside">
                       <li>Los cambios se aplicarán automáticamente en tu menú público</li>
                       <li>Puedes previsualizar los cambios guardando la configuración</li>
