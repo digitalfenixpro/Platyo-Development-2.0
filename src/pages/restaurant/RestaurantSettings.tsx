@@ -1696,7 +1696,7 @@ Fecha: ${new Date().toLocaleString()}
                   </button>
                 </div>
                 
-                <h4 className="text-md font-semibold text-gray-900 mb-4">Modo Oscuro</h4>
+                <h4 className="text-md font-semibold text-gray-900 mb-4">{t('dark_mode_templates')}</h4>
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-6">
                   <button
