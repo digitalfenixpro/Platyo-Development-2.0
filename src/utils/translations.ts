@@ -3597,6 +3597,7 @@ const translations: Record<Language, Translations> = {
     contact_email_label: 'Contact Email *',
     contact_phone_label: 'Contact Phone (optional)',
     support_problem_description: 'Problem or Inquiry Description *',
+    support_problem_description_hint: 'Describe your question or problem in detail. Include steps to reproduce the problem if it is technical.',
     send_ticket_button: 'Send Ticket',
     ticket_sent_title: 'Ticket Sent',
     my_support_tickets_title: 'My Support Tickets',
