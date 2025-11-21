@@ -2362,7 +2362,7 @@ Fecha: ${new Date().toLocaleString()}
                           onClick={() => updateFormData('settings.billing.logoTicket', '')}
                           className="bg-gradient-to-br from-red-500 to-rose-600 text-white text-sm font-medium px-3 py-1.5 rounded-lg shadow-md hover:opacity-90 transition"
                         >
-                          Eliminar
+                          {t('delete')}
                         </button>
                         </div>
                       )}
@@ -2477,7 +2477,7 @@ Fecha: ${new Date().toLocaleString()}
                       onClick={() => updateFormData('settings.promo.vertical_promo_image', '')}
                       className="bg-gradient-to-br from-red-500 to-rose-600 text-white text-sm font-medium px-3 py-1.5 rounded-lg shadow-md hover:opacity-90 transition"
                     >
-                      Eliminar
+                      {t('delete')}
                     </button>
                     </div>
                   )}
