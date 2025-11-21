@@ -645,7 +645,7 @@ export const PublicMenu: React.FC = () => {
           {/* 1. SECCIÓN DE CATEGORÍAS (Izquierda en móvil / Centro en desktop) */}
           {/* w-full md:w-auto md:mx-auto permite el scroll en móvil y centra en desktop. */}
           <div className="w-full  md:mx-auto">
-            <div className="flex gap-2 py-[2px] overflow-x-auto scrollbar-hide justify-start ;">
+            <div className="flex gap-2 py-[2px] overflow-x-auto scrollbar-hide justify-start ">
               {' '}
               {/* Eliminamos justify-center de aquí */}
               {/* Botón 'Todos' */}
@@ -783,7 +783,7 @@ export const PublicMenu: React.FC = () => {
                 return (
                   <div
                     key={product.id}
-                    className="rounded-xl shadow-sm hover:shadow-lg transition-all cursor-pointer overflow-hidden px-4"
+                    className="rounded-xl shadow-sm hover:shadow-lg transition-all cursor-pointer overflow-hidden "
                     onClick={() => setSelectedProduct(product)}
                     style={{
                       borderRadius:
@@ -793,7 +793,7 @@ export const PublicMenu: React.FC = () => {
                       backgroundColor: cardBackgroundColor,
                     }}
                   >
-                    <div className="flex flex-col md:flex-row gap-2 px-4">
+                    <div className="flex flex-col md:flex-row gap-2 px-4 md:px-0">
                       {' '}
                       {/*DF:Se quito el pading*/}
                       {product.images[0] && (
