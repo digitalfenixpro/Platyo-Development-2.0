@@ -2906,7 +2906,7 @@ Fecha: ${new Date().toLocaleString()}
                 <div className="flex items-center">
                   <HelpCircle className="w-5 h-5 text-yellow-600 mr-2" />
                   <div>
-                    <h4 className="text-yellow-800 font-medium">Esperando Respuesta</h4>
+                    <h4 className="text-yellow-800 font-medium">{t('awaiting_response_title')}</h4>
                     <p className="text-yellow-700 text-sm">
                      {t('awaiting_response_text')}
                     </p>
