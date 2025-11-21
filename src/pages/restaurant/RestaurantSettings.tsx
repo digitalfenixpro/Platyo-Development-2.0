@@ -1887,7 +1887,7 @@ Fecha: ${new Date().toLocaleString()}
                       <option value="Playfair Display">Playfair Display</option>
                       <option value="Merriweather">Merriweather</option>
                     </select>
-                    <p className="text-xs text-gray-500">Para títulos y destacados</p>
+                    <p className="text-xs text-gray-500">{t('secondary_font_hint')}</p>
                   </div>
                 </div>
 
