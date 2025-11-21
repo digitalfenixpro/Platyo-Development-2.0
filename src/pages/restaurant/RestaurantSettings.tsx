@@ -2213,7 +2213,7 @@ Fecha: ${new Date().toLocaleString()}
 
                         <div className="space-y-2">
                           <label className="block text-sm font-medium text-gray-700">
-                            Fecha de Resolución *
+                            {t('resolution_date_label')}
                           </label>
                           <input
                             type="date"
