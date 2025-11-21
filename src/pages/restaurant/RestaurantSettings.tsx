@@ -1296,7 +1296,7 @@ Fecha: ${new Date().toLocaleString()}
 
               <div className="bg-gradient-to-br from-gray-50 to-gray-50 rounded-lg md:rounded-xl p-4 md:p-6 border border-purple-100">
                 <h4 className="text-sm md:text-md font-semibold text-gray-900 mb-3 md:mb-4">{t('color_templates_title')}</h4>
-                <p className="text-sm text-gray-600 mb-4">Selecciona una plantilla predefinida o personaliza tus colores manualmente</p>
+                <p className="text-sm text-gray-600 mb-4">{t('color_templates_subtitle')}</p>
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-6">
                   <button
