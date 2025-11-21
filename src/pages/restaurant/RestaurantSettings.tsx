@@ -2131,7 +2131,7 @@ Fecha: ${new Date().toLocaleString()}
                         required
                       >
                         <option value="simple">{t('taxRegimeSimple')}</option>
-                        <option value="comun">Régimen Común</option>
+                        <option value="comun">{t('taxRegimeCommon')}</option>
                         <option value="no_responsable_iva">No responsable de IVA</option>
                       </select>
                     </div>
