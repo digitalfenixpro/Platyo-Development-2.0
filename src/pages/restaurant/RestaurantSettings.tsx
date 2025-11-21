@@ -2640,7 +2640,7 @@ Fecha: ${new Date().toLocaleString()}
                     </span>
                   </label>
                   <p className="text-xs text-gray-500">
-                    Recomendado: 600x900px (formato vertical). Máximo 5MB. Formatos: JPG, PNG, WebP
+                    {t('upload_vertical_imagen_promo_hint')}
                   </p>
                 </div>
               </div>
