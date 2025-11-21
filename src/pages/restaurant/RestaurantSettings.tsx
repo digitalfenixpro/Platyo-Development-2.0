@@ -2624,7 +2624,7 @@ Fecha: ${new Date().toLocaleString()}
                 </div>
                 <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">{t('technical_support_title')}</h3>
                 <p className="text-gray-600">
-                  ¿Necesitas ayuda? Completa el formulario y nuestro equipo te contactará pronto.
+                  {t('technical_support_subtitle')}
                 </p>
               </div>
 
