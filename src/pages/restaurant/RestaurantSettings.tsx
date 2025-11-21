@@ -2932,7 +2932,7 @@ Fecha: ${new Date().toLocaleString()}
                   setSelectedTicket(null);
                 }}
               >
-                Cerrar
+                {t('close_button')}
               </Button>
             </div>
           </div>
