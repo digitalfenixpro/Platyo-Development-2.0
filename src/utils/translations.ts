@@ -2301,6 +2301,7 @@ const translations: Record<Language, Translations> = {
     // Public Menu
     charging_public_menu: 'Cargando menú...',
     presenting_featured_products: 'Te presentamos nuestros',
+    presenting_featured_products1: 'DESTACADOS',
     title_public_menu: 'Menú público',
     description_public_menu: 'Comparte este link con tus clientes para que puedan ver tu menú y crear ordenes',
     your_custom_url: 'Tu URL personalizada:',
@@ -3974,6 +3975,7 @@ const translations: Record<Language, Translations> = {
     title_public_menu: 'Public Menu',
     charging_public_menu: 'Charging menu...',
     presenting_featured_products: 'We present our',
+    presenting_featured_products1: 'HIGHLIGHTS',
     description_public_menu: 'Share this link with your customers so they can view your menu and place orders',
     your_custom_url: 'Your custom URL:',
     copy: 'Copy',
