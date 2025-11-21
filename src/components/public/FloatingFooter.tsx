@@ -66,7 +66,7 @@ export const FloatingFooter: React.FC<FloatingFooterProps> = ({
       {/* 🌍 BOTONES FLOTANTES (solo móvil) */}
       {isMobile && (
         <div
-          className={`fixed left-4 flex gap-2 z-40 transition-all duration-300 ease-in-out`}
+          className={`fixed left-5 flex gap-2 z-40 transition-all duration-300 ease-in-out`}
           style={{
             bottom: showFooter ? '100px' : '16px', // ambos se levantan juntos
           }}
