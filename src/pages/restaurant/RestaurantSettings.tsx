@@ -2167,7 +2167,7 @@ Fecha: ${new Date().toLocaleString()}
 
                   <div className="space-y-2">
                     <label className="block text-sm font-medium text-gray-700">
-                      ¿Tiene Resolución DIAN? *
+                      {t('has_dian_resolution_label')}
                     </label>
                     <div className="flex items-center gap-6">
                       <label className="flex items-center gap-2 cursor-pointer">
