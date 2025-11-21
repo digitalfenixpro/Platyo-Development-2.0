@@ -2727,7 +2727,7 @@ Fecha: ${new Date().toLocaleString()}
                   })()}
                 </div>
                 <p className="text-xs text-gray-600">
-                  {formData.settings.promo?.featured_product_ids?.length || 0} de 5 productos seleccionados
+                  {formData.settings.promo?.featured_product_ids?.length || 0} {t('featured_products_selected')}
                 </p>
               </div>
 
