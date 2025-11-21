@@ -2735,12 +2735,12 @@ Fecha: ${new Date().toLocaleString()}
                 <div className="flex items-start gap-2">
                   <Megaphone className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                   <div>
-                    <p className="text-sm text-blue-800 font-medium">Consejos para promociones:</p>
+                    <p className="text-sm text-blue-800 font-medium">{t('featured_products_tip_title')}</p>
                     <ul className="text-xs text-blue-700 mt-2 space-y-1 list-disc list-inside">
-                      <li>La imagen promocional aparecerá al hacer clic en el botón de regalo</li>
-                      <li>Los productos destacados aparecerán en un carrusel en la parte superior del menú</li>
-                      <li>Usa imágenes atractivas y de calidad de tus productos destacados</li>
-                      <li>Selecciona tus mejores productos o los que tengan promociones especiales</li>
+                      <li>{t('featured_products_tip1')}</li>
+                      <li>{t('featured_products_tip2')}</li>
+                      <li>{t('featured_products_tip3')}</li>
+                      <li>{t('featured_products_tip4')}</li>
                     </ul>
                   </div>
                 </div>
