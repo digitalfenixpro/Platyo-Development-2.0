@@ -2587,7 +2587,7 @@ Fecha: ${new Date().toLocaleString()}
                         })}
                         {restaurantProducts.length === 0 && (
                           <p className="text-center text-gray-500 text-sm py-4">
-                            No hay productos disponibles. Crea productos primero.
+                            {t('noProductsAdded')}
                           </p>
                         )}
                       </div>
