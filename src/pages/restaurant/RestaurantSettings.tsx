@@ -2669,12 +2669,12 @@ Fecha: ${new Date().toLocaleString()}
                       onChange={(e) => setSupportForm(prev => ({ ...prev, category: e.target.value }))}
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     >
-                      <option value="general">Consulta General</option>
-                      <option value="technical">Problema Técnico</option>
-                      <option value="billing">Facturación</option>
-                      <option value="feature">Solicitud de Función</option>
-                      <option value="account">Cuenta y Configuración</option>
-                      <option value="other">Otro</option>
+                      <option value="general">{t('support_general')}</option>
+                      <option value="technical">{t('support_problem')}</option>
+                      <option value="billing">{t('support_billing')}</option>
+                      <option value="feature">{t('support_function')}</option>
+                      <option value="account">{t('support_account')}</option>
+                      <option value="other">{t('support_other')}</option>
                     </select>
                   </div>
 
