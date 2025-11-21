@@ -2061,7 +2061,7 @@ Fecha: ${new Date().toLocaleString()}
                           ))}
                       </select>
                       <p className="text-xs text-gray-500">
-                        Selecciona primero el departamento
+                        {t('select_department_first_hint')}
                       </p>
                     </div>
                   </div>
