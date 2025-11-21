@@ -2586,7 +2586,7 @@ Fecha: ${new Date().toLocaleString()}
                 <div className="flex items-center gap-2 mb-2">
                   <ImageIcon className="w-5 h-5 text-orange-600" />
                   <label className="block text-sm font-medium text-gray-700">
-                    Imagen Promocional Vertical
+                    {t('vertical_promo_image_label')}
                   </label>
                 </div>
                 <p className="text-xs text-gray-600 mb-4">
