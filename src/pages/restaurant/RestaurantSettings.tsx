@@ -2601,7 +2601,7 @@ Fecha: ${new Date().toLocaleString()}
                         className="w-20 h-28 object-cover rounded-lg"
                       />
                       <div className="flex-1">
-                        <p className="text-sm font-medium text-gray-900">Imagen promocional actual</p>
+                        <p className="text-sm font-medium text-gray-900">{t('promo_image_current')}</p>
                         <p className="text-xs text-gray-500">Se mostrará al hacer clic en el botón de promoción</p>
                       </div>
                     <button
