@@ -2410,7 +2410,7 @@ Fecha: ${new Date().toLocaleString()}
                       placeholder={t('ticket_message_hint')}
                     />
                     <p className="text-xs text-gray-500">
-                      Este mensaje aparecerá al final de cada ticket
+                      {t('ticket_message_hint2')}
                     </p>
                   </div>
                 </div>
