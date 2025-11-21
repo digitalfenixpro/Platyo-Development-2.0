@@ -2423,11 +2423,11 @@ Fecha: ${new Date().toLocaleString()}
                   <div>
                     <p className="text-sm text-green-800 font-medium">{t('ticket_final_tips_title')}</p>
                     <ul className="text-xs text-green-700 mt-2 space-y-1 list-disc list-inside">
-                      <li>Estos datos se utilizarán para generar tickets de pedido legalmente válidos en Colombia</li>
-                      <li>Si eres responsable de IVA, el IVA se calculará y mostrará en cada ticket</li>
-                      <li>La resolución DIAN es requerida para facturación electrónica</li>
-                      <li>La propina es opcional y aparecerá como sugerencia al cliente</li>
-                      <li>Asegúrate de mantener esta información actualizada</li>
+                      <li>{t('ticket_final_tip1')}</li>
+                      <li>{t('ticket_final_tip2')}</li>
+                      <li>{t('ticket_final_tip3')}</li>
+                      <li>{t('ticket_final_tip4')}</li>
+                      <li>{t('ticket_final_tip5')}</li>
                     </ul>
                   </div>
                 </div>
