@@ -1867,7 +1867,7 @@ const translations: Record<Language, Translations> = {
     nit_label: 'NIT *',
     tax_regime_label: 'Régimen Tributario *',
     iva_responsible_label: 'Responsable de IVA',
-    has_dian_resolution_label: '¿Tiene Resolución DIAN?',
+    has_dian_resolution_label: '¿Tiene Resolución DIAN? *',
     department_label: 'Departamento *',
     city_label: 'Ciudad *',
     address_billing_label: 'Dirección *',
