@@ -2577,7 +2577,7 @@ Fecha: ${new Date().toLocaleString()}
                   {t('promo_settings_title')}
                 </h3>
                 <p className="text-sm text-gray-600 mt-1">
-                  Configura la imagen promocional y los productos destacados en tu menú público
+                  {t('promo_settings_subtitle')}
                 </p>
               </div>
 
