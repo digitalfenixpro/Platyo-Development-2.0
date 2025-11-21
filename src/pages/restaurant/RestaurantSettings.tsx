@@ -1865,7 +1865,7 @@ Fecha: ${new Date().toLocaleString()}
                       <option value="Playfair Display">Playfair Display</option>
                       <option  value="Merriweather">Merriweather</option>
                     </select>
-                    <p className="text-xs text-gray-500">Para texto de contenido</p>
+                    <p className="text-xs text-gray-500">{t('primary_font_hint')}</p>
                   </div>
 
                   <div className="space-y-3">
