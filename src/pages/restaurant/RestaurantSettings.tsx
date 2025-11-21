@@ -2602,7 +2602,7 @@ Fecha: ${new Date().toLocaleString()}
                       />
                       <div className="flex-1">
                         <p className="text-sm font-medium text-gray-900">{t('promo_image_current')}</p>
-                        <p className="text-xs text-gray-500">Se mostrará al hacer clic en el botón de promoción</p>
+                        <p className="text-xs text-gray-500">{t('promo_image_current_hint')}</p>
                       </div>
                     <button
                       type="button"
