@@ -2648,7 +2648,7 @@ Fecha: ${new Date().toLocaleString()}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Asunto *
+                      {t('subject_label')}
                     </label>
                     <input
                       type="text"
