@@ -2804,9 +2804,9 @@ Fecha: ${new Date().toLocaleString()}
               <div className="mt-8 bg-blue-50 rounded-lg p-6">
                 <h4 className="text-gray-900 font-medium mb-3">{t('other_support_channels')}</h4>
                 <div className="space-y-2 text-sm text-gray-600">
-                  <p>📧 Email directo: <a href="mailto:admin@digitalfenixpro.com" className="text-blue-600 hover:text-blue-700">admin@digitalfenixpro.com</a></p>
-                  <p>⏰ Horario de atención: Lunes a Viernes, 9:00 AM - 6:00 PM</p>
-                  <p>🕐 Tiempo de respuesta típico: 2-24 horas según prioridad</p>
+                  <p>{t('support_direct_email')}<a href="mailto:admin@digitalfenixpro.com" className="text-blue-600 hover:text-blue-700">admin@digitalfenixpro.com</a></p>
+                  <p>{t('support_days')}</p>
+                  <p>{t('support_time')}</p>
                 </div>
                 
                 <div className="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-lg">
