@@ -1970,7 +1970,7 @@ Fecha: ${new Date().toLocaleString()}
                         placeholder={t('commercial_name_placeholder')}
                         required
                       />
-                      <p className="text-xs text-gray-500">El nombre que aparecerá en los tickets</p>
+                      <p className="text-xs text-gray-500">{t('commercial_name_hint')}</p>
                     </div>
 
                     <div className="space-y-2">
