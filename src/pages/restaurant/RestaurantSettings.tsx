@@ -2393,7 +2393,7 @@ Fecha: ${new Date().toLocaleString()}
                         </span>
                       </label>
                       <p className="text-xs text-gray-500">
-                        PNG o JPG. Máximo 1MB. Se recomienda 200x200px
+                        {t('ticket_buttom_logo_change_hint')}
                       </p>
                     </div>
                   )}
