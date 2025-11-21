@@ -2908,7 +2908,7 @@ Fecha: ${new Date().toLocaleString()}
                   <div>
                     <h4 className="text-yellow-800 font-medium">Esperando Respuesta</h4>
                     <p className="text-yellow-700 text-sm">
-                      Tu ticket está siendo revisado por nuestro equipo. Te contactaremos pronto.
+                     {t('awaiting_response_text')}
                     </p>
                   </div>
                 </div>
