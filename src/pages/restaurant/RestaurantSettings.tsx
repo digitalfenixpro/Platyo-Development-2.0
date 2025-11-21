@@ -2855,7 +2855,7 @@ Fecha: ${new Date().toLocaleString()}
                     <span className="text-gray-600">{t('category_label')}</span> {getCategoryName(selectedTicket.category)}
                   </div>
                   <div>
-                    <span className="text-gray-600">Prioridad:</span> {selectedTicket.priority.charAt(0).toUpperCase() + selectedTicket.priority.slice(1)}
+                    <span className="text-gray-600">{t('priority_label')}</span> {selectedTicket.priority.charAt(0).toUpperCase() + selectedTicket.priority.slice(1)}
                   </div>
                 </div>
               </div>
