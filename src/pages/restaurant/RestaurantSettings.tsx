@@ -2788,7 +2788,7 @@ Fecha: ${new Date().toLocaleString()}
                       contactPhone: restaurant?.phone || ''
                     })}
                   >
-                    Limpiar Formulario
+                    {t('clear_form_button')}
                   </Button>
                   <Button
                     type="submit"
