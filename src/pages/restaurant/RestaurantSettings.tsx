@@ -2739,7 +2739,7 @@ Fecha: ${new Date().toLocaleString()}
                 {/* Historial de tickets */}
                 {supportTickets.length > 0 && (
                   <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
-                    <h4 className="text-gray-800 font-medium mb-3">Tickets enviados recientemente:</h4>
+                    <h4 className="text-gray-800 font-medium mb-3">{t('my_support_tickets_title')}</h4>
                     <div className="space-y-2 max-h-48 overflow-y-auto">
                       {supportTickets
                         .filter(ticket => ticket.restaurantId === restaurant?.id)
