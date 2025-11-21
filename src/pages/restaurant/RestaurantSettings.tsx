@@ -1870,7 +1870,7 @@ Fecha: ${new Date().toLocaleString()}
 
                   <div className="space-y-3">
                     <label className="block text-sm font-medium text-gray-700">
-                      Fuente Secundaria
+                      {t('secondary_font_label')}
                     </label>
                     <select
                       value={formData.settings.theme.secondary_font}
