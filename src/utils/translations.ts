@@ -1892,6 +1892,7 @@ const translations: Record<Language, Translations> = {
     ticket_final_message_label: 'Mensaje Final del Ticket (opcional)',
     ticket_message_hint: '¡Gracias por tu visita! Esperamos verte pronto.',
     ticket_message_hint2: 'Este mensaje aparecerá al final de cada ticket',
+    ticket_final_tips_title: 'Sobre la configuración de facturación:',
     promo_settings_title: 'Configuración Promocional',
     promo_settings_subtitle: 'Configura la imagen promocional y los productos destacados en tu menú público',
     vertical_promo_image_label: 'Imagen Promocional Vertical',
