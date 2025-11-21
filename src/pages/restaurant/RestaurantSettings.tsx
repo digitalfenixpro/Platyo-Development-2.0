@@ -2278,7 +2278,7 @@ Fecha: ${new Date().toLocaleString()}
                             onChange={() => updateFormData('settings.billing.aplicaPropina', true)}
                             className="w-4 h-4 text-gray-600 border-gray-300 focus:ring-gray-500"
                           />
-                          <span className="text-sm text-gray-700">Sí (10% del subtotal)</span>
+                          <span className="text-sm text-gray-700">{t('suggestedTipLabel')}</span>
                         </label>
                         <label className="flex items-center gap-2 cursor-pointer">
                           <input
