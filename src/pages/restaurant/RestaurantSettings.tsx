@@ -1289,7 +1289,7 @@ Fecha: ${new Date().toLocaleString()}
                   {t('theme_customization_title')}
                 </h3>
                 <p className="text-sm text-gray-600">
-                  Configura los colores, tipografía y estilos de tu menú público
+                  {t('theme_customization_subtitle')}
                 </p>
               </div>
               
