@@ -2888,7 +2888,7 @@ Fecha: ${new Date().toLocaleString()}
             {/* Admin Response */}
             {selectedTicket.response ? (
               <div>
-                <h4 className="text-md font-medium text-gray-900 mb-3">Respuesta del Equipo de Soporte</h4>
+                <h4 className="text-md font-medium text-gray-900 mb-3">{t('admin_response_title')}</h4>
                 <div className="bg-green-50 border border-green-200 rounded-lg p-4">
                   <p className="text-sm text-green-800 whitespace-pre-wrap">{selectedTicket.response}</p>
                   {selectedTicket.responseDate && (
