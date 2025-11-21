@@ -2849,7 +2849,7 @@ Fecha: ${new Date().toLocaleString()}
             {/* Ticket Info */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
               <div>
-                <h4 className="text-sm md:text-md font-medium text-gray-900 mb-2 md:mb-3">Información del Ticket</h4>
+                <h4 className="text-sm md:text-md font-medium text-gray-900 mb-2 md:mb-3">{t('ticket_info_title')}</h4>
                 <div className="space-y-2 text-sm">
                   <div>
                     <span className="text-gray-600">Categoría:</span> {getCategoryName(selectedTicket.category)}
