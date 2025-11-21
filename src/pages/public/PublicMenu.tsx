@@ -783,11 +783,9 @@ export const PublicMenu: React.FC = () => {
                 return (
                   <div
                     key={product.id}
-                    className="rounded-xl shadow-sm hover:shadow-lg transition-all cursor-pointer overflow-hidden"
+                    className="rounded-xl shadow-sm hover:shadow-lg transition-all cursor-pointer overflow-hidden px-4"
                     onClick={() => setSelectedProduct(product)}
                     style={{
-                      paddingLeft: '1rem',
-                      paddingRight: '1rem',
                       borderRadius:
                         theme.button_style === 'rounded'
                           ? '0.75rem'
@@ -795,7 +793,7 @@ export const PublicMenu: React.FC = () => {
                       backgroundColor: cardBackgroundColor,
                     }}
                   >
-                    <div className="flex flex-col md:flex-row gap-2 ">
+                    <div className="flex flex-col md:flex-row gap-2 px-4">
                       {' '}
                       {/*DF:Se quito el pading*/}
                       {product.images[0] && (
