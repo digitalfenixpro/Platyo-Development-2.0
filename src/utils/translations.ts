@@ -1855,7 +1855,8 @@ const translations: Record<Language, Translations> = {
     primary_text_color_hint: 'Títulos y textos principales',
     secondary_text_color_label: 'Color Texto Secundario',
     secondary_text_color_hint: 'Descripciones y subtítulos',
-    pathforms_label: 'Activar o desactivar Pathforms'
+    pathforms_label: 'Activar o desactivar Pathforms',
+    pathforms_hint: 'Habilita esta opción para mostrar las formas decorativas que aparecen en el fondo de la página.',
     billing_settings_title: 'Configuración de Facturación',
     restaurant_info_billing_title: 'Información del Restaurante',
     commercial_name_label: 'Nombre Comercial *',
