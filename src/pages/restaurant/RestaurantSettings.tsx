@@ -2343,7 +2343,7 @@ Fecha: ${new Date().toLocaleString()}
                   {formData.settings.billing?.mostrarLogoEnTicket && (
                     <div className="bg-white rounded-lg p-4 border border-purple-200 space-y-3">
                       <label className="block text-sm font-medium text-gray-700">
-                        Logo para el ticket
+                        {t('ticket_logo_label')}
                       </label>
 
                       {formData.settings.billing?.logoTicket && (
