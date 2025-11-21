@@ -2696,7 +2696,7 @@ Fecha: ${new Date().toLocaleString()}
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Email de Contacto *
+                      {t('contact_email_label')}
                     </label>
                     <input
                       type="email"
