@@ -2687,10 +2687,10 @@ Fecha: ${new Date().toLocaleString()}
                       onChange={(e) => setSupportForm(prev => ({ ...prev, priority: e.target.value }))}
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     >
-                      <option value="low">Baja - No es urgente</option>
-                      <option value="medium">Media - Respuesta en 24-48h</option>
-                      <option value="high">Alta - Respuesta en 2-8h</option>
-                      <option value="urgent">Urgente - Respuesta inmediata</option>
+                      <option value="low">{t('priority_option1')}</option>
+                      <option value="medium">{t('priority_option2')}</option>
+                      <option value="high">{t('priority_option3')}</option>
+                      <option value="urgent">{t('priority_option4')}</option>
                     </select>
                   </div>
 
