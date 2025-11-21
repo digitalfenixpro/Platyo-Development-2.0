@@ -3592,7 +3592,7 @@ const translations: Record<Language, Translations> = {
     support_account: 'Account and Settings',
     support_other: 'Other',
     message_label: 'Message *',
-    contact_email_label: 'Contact Email',
+    contact_email_label: 'Contact Email *',
     contact_phone_label: 'Contact Phone',
     send_ticket_button: 'Send Ticket',
     ticket_sent_title: 'Ticket Sent',
