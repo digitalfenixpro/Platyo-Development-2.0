@@ -1877,7 +1877,7 @@ const translations: Record<Language, Translations> = {
     dian_resolution_data_title: 'Datos de la Resolución DIAN',
     resolution_number_label: 'Número de Resolución *',
     resolution_date_label: 'Fecha de Resolución *',
-    numbering_range_label: 'Rango de Numeración *',
+    numbering_range_label: 'Rango de Numeración - Desde *',
     from_label: 'Desde',
     to_label: 'Hasta',
     tax_tip_settings_title: 'Configuración de Impuestos y Propina',
