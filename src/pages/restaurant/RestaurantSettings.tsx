@@ -1848,7 +1848,7 @@ Fecha: ${new Date().toLocaleString()}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-4 md:mb-6">
                   <div className="space-y-3">
                     <label className="block text-sm font-medium text-gray-700">
-                      Fuente Principal
+                      {t('primary_font_label')}
                     </label>
                     <select
                       value={formData.settings.theme.primary_font}
