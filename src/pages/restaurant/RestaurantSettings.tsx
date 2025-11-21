@@ -2796,7 +2796,7 @@ Fecha: ${new Date().toLocaleString()}
                     icon={Send}
                     disabled={!supportForm.subject.trim() || !supportForm.message.trim() || !supportForm.contactEmail.trim()}
                   >
-                    Enviar Solicitud
+                    {t('send_ticket_button')}
                   </Button>
                 </div>
               </form>
