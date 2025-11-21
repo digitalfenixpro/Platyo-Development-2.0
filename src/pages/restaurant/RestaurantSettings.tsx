@@ -2811,8 +2811,7 @@ Fecha: ${new Date().toLocaleString()}
                 
                 <div className="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-lg">
                   <p className="text-blue-800 text-sm">
-                    <strong>Nota:</strong> Los tickets se almacenan localmente y se envían automáticamente a nuestro sistema de soporte. 
-                    Recibirás una respuesta en el email de contacto proporcionado.
+                    <strong>Nota:</strong> {t('support_message_note_description')}
                   </p>
                 </div>
               </div>
