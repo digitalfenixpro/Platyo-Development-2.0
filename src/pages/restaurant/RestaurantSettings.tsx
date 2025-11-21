@@ -1928,7 +1928,6 @@ Fecha: ${new Date().toLocaleString()}
                       <li>{t('theme_auto_apply')}</li>
                       <li>{t('theme_preview')}</li>
                       <li>{t('theme_contrast')}</li>
-                      <li>{t('theme_font_css')}</li>
                     </ul>
                   </div>
                 </div>
