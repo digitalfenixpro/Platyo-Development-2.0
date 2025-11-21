@@ -2861,7 +2861,7 @@ Fecha: ${new Date().toLocaleString()}
               </div>
               
               <div>
-                <h4 className="text-md font-medium text-gray-900 mb-3">Información de Contacto</h4>
+                <h4 className="text-md font-medium text-gray-900 mb-3">{t('contactInfo')}</h4>
                 <div className="space-y-2 text-sm">
                   <div className="flex items-center">
                     <Mail className="w-4 h-4 text-gray-400 mr-2" />
