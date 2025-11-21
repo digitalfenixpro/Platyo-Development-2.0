@@ -1984,7 +1984,7 @@ Fecha: ${new Date().toLocaleString()}
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500"
                         placeholder={t('social_reason_placeholder')}
                       />
-                      <p className="text-xs text-gray-500">Opcional - Nombre legal de la empresa</p>
+                      <p className="text-xs text-gray-500">{t('legal_company_name')}</p>
                     </div>
                   </div>
 
