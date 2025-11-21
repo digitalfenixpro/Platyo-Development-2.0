@@ -1944,7 +1944,7 @@ Fecha: ${new Date().toLocaleString()}
                 <div>
                   <h3 className="text-base md:text-lg font-semibold text-gray-900">{t('billing_settings_title')}</h3>
                   <p className="text-sm text-gray-600">
-                    Información legal y fiscal para la generación de tickets de pedido válidos en Colombia
+                    {t('billing_hint_legal_tickets')}
                   </p>
                 </div>
               </div>
