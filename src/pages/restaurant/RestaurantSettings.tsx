@@ -2656,7 +2656,7 @@ Fecha: ${new Date().toLocaleString()}
                   </label>
                 </div>
                 <p className="text-xs text-gray-600 mb-4">
-                  Selecciona hasta 5 productos para mostrar en el carrusel de destacados
+                  {t('featured_products_hint')}
                 </p>
                 <div className="border border-gray-200 rounded-lg p-4 bg-gray-50 max-h-96 overflow-y-auto">
                   {(() => {
