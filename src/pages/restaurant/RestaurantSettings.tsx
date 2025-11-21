@@ -2574,7 +2574,7 @@ Fecha: ${new Date().toLocaleString()}
                   <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl flex items-center justify-center shadow-md">
                     <Megaphone className="w-5 h-5 text-white" />
                   </div>
-                  Configuración Promocional
+                  {t('promo_settings_title')}
                 </h3>
                 <p className="text-sm text-gray-600 mt-1">
                   Configura la imagen promocional y los productos destacados en tu menú público
