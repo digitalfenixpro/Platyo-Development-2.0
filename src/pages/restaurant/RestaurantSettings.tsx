@@ -2068,7 +2068,7 @@ Fecha: ${new Date().toLocaleString()}
 
                   <div className="space-y-2">
                     <label className="block text-sm font-medium text-gray-700">
-                      Dirección *
+                      {t('address_billing_label')}
                     </label>
                     <input
                       type="text"
