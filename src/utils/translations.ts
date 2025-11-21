@@ -827,6 +827,7 @@ const translations: Record<Language, Translations> = {
     // Common
     suscription: 'Suscripción',
     save: 'Guardar',
+    todos_button: 'Todos',
     cancel: 'Cancelar',
     edit: 'Editar',
     delete: 'Eliminar',
@@ -2497,6 +2498,7 @@ const translations: Record<Language, Translations> = {
   
   en: {
     // Common
+    todos_button: 'All',
     save: 'Save',
     cancel: 'Cancel',
     edit: 'Edit',
