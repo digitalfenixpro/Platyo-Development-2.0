@@ -786,7 +786,8 @@ export const PublicMenu: React.FC = () => {
                     className="rounded-xl shadow-sm hover:shadow-lg transition-all cursor-pointer overflow-hidden"
                     onClick={() => setSelectedProduct(product)}
                     style={{
-
+                      paddingLeft: '1rem',
+                      paddingRight: '1rem',
                       borderRadius:
                         theme.button_style === 'rounded'
                           ? '0.75rem'
