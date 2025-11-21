@@ -2879,7 +2879,7 @@ Fecha: ${new Date().toLocaleString()}
 
             {/* Original Message */}
             <div>
-              <h4 className="text-md font-medium text-gray-900 mb-3">Tu Mensaje</h4>
+              <h4 className="text-md font-medium text-gray-900 mb-3">{t('support_original_message')}</h4>
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
                 <p className="text-sm text-blue-800 whitespace-pre-wrap">{selectedTicket.message}</p>
               </div>
