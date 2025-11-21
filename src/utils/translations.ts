@@ -1423,7 +1423,7 @@ const translations: Record<Language, Translations> = {
     taxRegimeSimple: 'Régimen Simple',
     taxRegimeCommon: 'Régimen Común',
     taxRegimeNoIva: 'No responsable de IVA',
-    taxRegimeIvaQuestion: '¿Responsable de IVA? *'
+    taxRegimeIvaQuestion: '¿Responsable de IVA? *',
     deliveryOrderType: 'Domicilio',
     pickupOrderType: 'Para llevar',
     tableOrderType: 'Mesa',
@@ -3058,7 +3058,7 @@ const translations: Record<Language, Translations> = {
     taxRegimeSimple: 'Simple Regime',
     taxRegimeCommon: 'Common Regime',
     taxRegimeNoIva: 'Not VAT responsible',
-  taxRegimeIvaQuestion: '¿VAT responsible? *'
+    taxRegimeIvaQuestion: '¿VAT responsible? *',
     deliveryOrderType: 'Delivery',
     pickupOrderType: 'Takeaway',
     tableOrderType: 'Table',
