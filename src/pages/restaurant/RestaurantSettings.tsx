@@ -2355,7 +2355,7 @@ Fecha: ${new Date().toLocaleString()}
                           />
                           <div className="flex-1">
                             <p className="text-sm font-medium text-gray-900">{t('ticket_current_logo')}</p>
-                            <p className="text-xs text-gray-500">Click para cambiar</p>
+                            <p className="text-xs text-gray-500">{t('ticket_buttom_logo_change')}</p>
                           </div>
                         <button
                           type="button"
