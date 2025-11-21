@@ -1927,7 +1927,7 @@ Fecha: ${new Date().toLocaleString()}
                     <ul className="text-xs text-blue-700 mt-2 space-y-1 list-disc list-inside">
                       <li>{t('theme_auto_apply')}</li>
                       <li>{t('theme_preview')}</li>
-                      <li>Asegúrate de que los colores tengan buen contraste para legibilidad</li>
+                      <li>{t('theme_contrast')}</li>
                     </ul>
                   </div>
                 </div>
