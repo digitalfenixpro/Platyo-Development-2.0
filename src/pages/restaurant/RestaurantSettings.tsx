@@ -1843,7 +1843,7 @@ Fecha: ${new Date().toLocaleString()}
               </div>
 
               <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 border border-blue-100">
-                <h4 className="text-md font-semibold text-gray-900 mb-4">Tipografía</h4>
+                <h4 className="text-md font-semibold text-gray-900 mb-4">{t('typography_title')}</h4>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-4 md:mb-6">
                   <div className="space-y-3">
