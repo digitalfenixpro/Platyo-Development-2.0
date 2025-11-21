@@ -645,7 +645,7 @@ export const PublicMenu: React.FC = () => {
           {/* 1. SECCIÓN DE CATEGORÍAS (Izquierda en móvil / Centro en desktop) */}
           {/* w-full md:w-auto md:mx-auto permite el scroll en móvil y centra en desktop. */}
           <div className="w-full  md:mx-auto">
-            <div className="flex gap-2 py-[2px] overflow-x-auto scrollbar-hide justify-start ">
+            <div className="flex gap-2 py-[2px] overflow-x-auto scrollbar-hide justify-start px-4">
               {' '}
               {/* Eliminamos justify-center de aquí */}
               {/* Botón 'Todos' */}
