@@ -2097,7 +2097,7 @@ Fecha: ${new Date().toLocaleString()}
 
                     <div className="space-y-2">
                       <label className="block text-sm font-medium text-gray-700">
-                        Correo Electrónico
+                        {t('email_billing_label')}
                       </label>
                       <input
                         type="email"
