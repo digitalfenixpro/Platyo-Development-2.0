@@ -1882,7 +1882,7 @@ const translations: Record<Language, Translations> = {
     from_label: 'Desde',
     to_label: 'Hasta',
     tax_tip_settings_title: 'Configuración Propina',
-    suggested_tip_label: '¿Aplicar Propina Sugerida?'
+    suggested_tip_label: '¿Aplicar Propina Sugerida?',
     ticket_customization_title: 'Personalización del Ticket',
     show_logo_on_ticket_label: '¿Mostrar logo en el ticket?',
     ticket_logo_label: 'Logo para el ticket',
