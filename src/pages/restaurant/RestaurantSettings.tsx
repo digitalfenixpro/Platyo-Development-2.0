@@ -1766,7 +1766,7 @@ Fecha: ${new Date().toLocaleString()}
                           onChange={(e) => updateFormData('settings.theme.menu_background_color', e.target.value)}
                           className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm font-mono"
                         />
-                        <p className="text-xs text-gray-500 mt-1">Fondo principal del menú</p>
+                        <p className="text-xs text-gray-500 mt-1">{t('menu_bg_color_hint')}</p>
                       </div>
                     </div>
                   </div>
