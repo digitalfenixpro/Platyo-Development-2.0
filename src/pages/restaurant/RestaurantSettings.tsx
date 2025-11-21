@@ -2852,7 +2852,7 @@ Fecha: ${new Date().toLocaleString()}
                 <h4 className="text-sm md:text-md font-medium text-gray-900 mb-2 md:mb-3">{t('ticket_info_title')}</h4>
                 <div className="space-y-2 text-sm">
                   <div>
-                    <span className="text-gray-600">Categoría:</span> {getCategoryName(selectedTicket.category)}
+                    <span className="text-gray-600">{t('category_label')}</span> {getCategoryName(selectedTicket.category)}
                   </div>
                   <div>
                     <span className="text-gray-600">Prioridad:</span> {selectedTicket.priority.charAt(0).toUpperCase() + selectedTicket.priority.slice(1)}
