@@ -1925,7 +1925,7 @@ Fecha: ${new Date().toLocaleString()}
                   <div>
                     <p className="text-sm text-blue-800 font-medium">{t('about_customization_title')}</p>
                     <ul className="text-xs text-blue-700 mt-2 space-y-1 list-disc list-inside">
-                      <li>Los cambios se aplicarán automáticamente en tu menú público</li>
+                      <li>{t('theme_auto_apply')}</li>
                       <li>Puedes previsualizar los cambios guardando la configuración</li>
                       <li>Asegúrate de que los colores tengan buen contraste para legibilidad</li>
                     </ul>
