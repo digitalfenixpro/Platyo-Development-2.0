@@ -1958,6 +1958,7 @@ const translations: Record<Language, Translations> = {
     last_update_label: 'Última Actualización',
     client_message_title: 'Mensaje del Cliente',
     admin_response_title: 'Respuesta del equipo de soporte',
+    support_information_response: 'Respondido el:',
     additional_notes_title: 'Notas Adicionales',
     awaiting_response_title: 'Esperando Respuesta',
     awaiting_response_text: 'Tu ticket está siendo revisado por nuestro equipo. Te contactaremos pronto.',
