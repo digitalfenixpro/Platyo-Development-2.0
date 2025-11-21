@@ -2652,7 +2652,7 @@ Fecha: ${new Date().toLocaleString()}
                   <label className="block text-sm font-medium text-gray-700">
                     {t('featured_products_title')}</label>
                   <label className="block text-sm font-medium text-gray-700">
-                    (Máximo 5)
+                    (Max. 5)
                   </label>
                 </div>
                 <p className="text-xs text-gray-600 mb-4">
