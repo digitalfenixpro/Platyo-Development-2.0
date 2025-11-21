@@ -1975,7 +1975,7 @@ Fecha: ${new Date().toLocaleString()}
 
                     <div className="space-y-2">
                       <label className="block text-sm font-medium text-gray-700">
-                        Razón Social
+                        {t('social_reason_label')}
                       </label>
                       <input
                         type="text"
