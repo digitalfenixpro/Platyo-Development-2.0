@@ -224,7 +224,7 @@ export const PublicMenu: React.FC = () => {
         <div className="text-center max-w-md">
           <div className="text-6xl mb-4">🍽️</div>
           <h2 className="text-2xl font-bold text-gray-900 mb-2">
-            Restaurante no encontrado
+            {t('restaurantNotFoundForUser')}
           </h2>
           <p className="text-gray-600 mb-4">
             {error || 'El menú que buscas no está disponible.'}
