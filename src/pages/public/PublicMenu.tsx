@@ -783,7 +783,7 @@ export const PublicMenu: React.FC = () => {
                 return (
                   <div
                     key={product.id}
-                    className="rounded-xl shadow-sm hover:shadow-lg transition-all cursor-pointer overflow-hidden"
+                    className="rounded-xl shadow-sm hover:shadow-lg transition-all cursor-pointer overflow-hidden px-4"
                     onClick={() => setSelectedProduct(product)}
                     style={{
                       borderRadius:
