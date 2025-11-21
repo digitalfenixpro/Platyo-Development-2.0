@@ -2308,7 +2308,7 @@ Fecha: ${new Date().toLocaleString()}
               <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 border border-purple-100">
                 <h4 className="text-md font-semibold text-gray-900 mb-4 flex items-center gap-2">
                   <FileText className="w-5 h-5 text-purple-600" />
-                  Personalización del Ticket
+                  {t('ticket_customization_title')}
                 </h4>
 
                 <div className="space-y-6">
