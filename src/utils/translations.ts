@@ -1882,7 +1882,7 @@ const translations: Record<Language, Translations> = {
     from_label: 'Desde',
     to_label: 'Hasta',
     tax_tip_settings_title: 'Configuración Propina',
-    suggested_tip_label: '¿Aplica Propina Sugerida?',
+    suggested_tip_label: '¿Aplicar Propina Sugerida?'
     ticket_customization_title: 'Personalización del Ticket',
     show_logo_on_ticket_label: '¿Mostrar logo en el ticket?',
     ticket_logo_label: 'Logo para el ticket',
@@ -3519,7 +3519,7 @@ const translations: Record<Language, Translations> = {
     numbering_range_label_to: 'Numbering Range to *',
     from_label: 'From',
     to_label: 'To',
-    tax_tip_settings_title: 'Tax and Tip Settings',
+    tax_tip_settings_title: 'Tip Settings',
     suggested_tip_label: 'Applies Suggested Tip?',
     ticket_customization_title: 'Ticket Customization',
     show_logo_on_ticket_label: 'Show logo on ticket?',
