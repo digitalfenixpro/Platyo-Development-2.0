@@ -1940,6 +1940,7 @@ const translations: Record<Language, Translations> = {
     other_support_channels: 'Otros canales de soporte:',
     ticket_sent_title: 'Ticket Enviado',
     my_support_tickets_title: 'Mis Tickets de Soporte',
+    support_message_note_description: 'Los tickets se almacenan localmente y se envían automáticamente a nuestro sistema de soporte. Recibirás una respuesta en el email de contacto proporcionado.',
     support_direct_email: '📧 Email directo: ',
     support_days: '⏰ Horario de atención: Lunes a Viernes, 9:00 AM - 6:00 PM',
     support_time: '🕐 Tiempo de respuesta típico: 2-24 horas según prioridad',
