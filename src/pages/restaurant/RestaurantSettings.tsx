@@ -1720,7 +1720,7 @@ Fecha: ${new Date().toLocaleString()}
                           onChange={(e) => updateFormData('settings.theme.primary_color', e.target.value)}
                           className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm font-mono"
                         />
-                        <p className="text-xs text-gray-500 mt-1">Botones principales</p>
+                        <p className="text-xs text-gray-500 mt-1">{t('primary_color_hint')}</p>
                       </div>
                     </div>
                   </div>
