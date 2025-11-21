@@ -2299,6 +2299,7 @@ const translations: Record<Language, Translations> = {
     canChangeAnytime: 'Puedes cambiar de plan en cualquier momento.',
     
     // Public Menu
+    charging_public_menu: 'Cargando menú...',
     title_public_menu: 'Menú público',
     description_public_menu: 'Comparte este link con tus clientes para que puedan ver tu menú y crear ordenes',
     your_custom_url: 'Tu URL personalizada:',
@@ -3970,6 +3971,7 @@ const translations: Record<Language, Translations> = {
     
     // Public Menu
     title_public_menu: 'Public Menu',
+    charging_public_menu: 'Charging menu...',
     description_public_menu: 'Share this link with your customers so they can view your menu and place orders',
     your_custom_url: 'Your custom URL:',
     copy: 'Copy',
