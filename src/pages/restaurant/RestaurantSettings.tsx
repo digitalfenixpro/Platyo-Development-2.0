@@ -2724,7 +2724,7 @@ Fecha: ${new Date().toLocaleString()}
 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Descripción del Problema o Consulta *
+                    {t('support_problem_description')}
                   </label>
                   <textarea
                     value={supportForm.message}
