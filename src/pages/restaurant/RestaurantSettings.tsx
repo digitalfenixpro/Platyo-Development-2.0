@@ -1727,7 +1727,7 @@ Fecha: ${new Date().toLocaleString()}
 
                   <div className="space-y-3">
                     <label className="block text-sm font-medium text-gray-700">
-                      {t('secundary_color_label')}
+                      {t('secondary_color_label')}
                     </label>
                     <div className="flex gap-2">
                       <input
@@ -1743,7 +1743,7 @@ Fecha: ${new Date().toLocaleString()}
                           onChange={(e) => updateFormData('settings.theme.secondary_color', e.target.value)}
                           className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm font-mono"
                         />
-                        <p className="text-xs text-gray-500 mt-1">{t('secundary_color_hint')}</p>
+                        <p className="text-xs text-gray-500 mt-1">{t('secondary_color_hint')}</p>
                       </div>
                     </div>
                   </div>
