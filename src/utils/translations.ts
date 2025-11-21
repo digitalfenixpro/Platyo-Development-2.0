@@ -1884,6 +1884,7 @@ const translations: Record<Language, Translations> = {
     promo_image_current: 'Imagen promocional actual',
     promo_image_current_hint: 'Se mostrará al hacer clic en el botón de promoción',
     upload_vertical_imagen_promo: 'Subir imagen promocional vertical',
+    upload_vertical_imagen_promo_hint: 'Recomendado: 600x900px (formato vertical). Máximo 5MB. Formatos: JPG, PNG, WebP',
     featured_products_title: 'Productos Destacados',
     featured_products_hint: 'Selecciona hasta 5 productos para mostrar en el carrusel de destacados',
     technical_support_title: 'Soporte Técnico',
