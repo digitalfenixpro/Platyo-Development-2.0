@@ -2662,7 +2662,7 @@ Fecha: ${new Date().toLocaleString()}
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Categoría
+                      {t('category')}
                     </label>
                     <select
                       value={supportForm.category}
