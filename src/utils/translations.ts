@@ -2108,7 +2108,6 @@ const translations: Record<Language, Translations> = {
     theme_auto_apply: 'Los cambios se aplicarán automáticamente en tu menú público',
     theme_preview: 'Puedes previsualizar los cambios guardando la configuración',
     theme_contrast: 'Asegúrate de que los colores tengan buen contraste para legibilidad',
-    theme_font_css: 'Los tamaños de fuente aceptan valores CSS (px, rem, em)',
 
     // Analytics
     totalRevenue: 'Ingresos Totales',
@@ -3743,7 +3742,6 @@ const translations: Record<Language, Translations> = {
     theme_auto_apply: 'Changes will be applied automatically to your public menu',
     theme_preview: 'You can preview changes by saving the configuration',
     theme_contrast: 'Make sure colors have good contrast for readability',
-    theme_font_css: 'Font sizes accept CSS values (px, rem, em)',
 
     // Analytics
     totalRevenue: 'Total Revenue',
