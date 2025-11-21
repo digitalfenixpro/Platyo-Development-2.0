@@ -1704,7 +1704,7 @@ Fecha: ${new Date().toLocaleString()}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
                   <div className="space-y-3">
                     <label className="block text-sm font-medium text-gray-700">
-                      Color Primario
+                      {t('primary_color_label')}
                     </label>
                     <div className="flex gap-2">
                       <input
