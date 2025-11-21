@@ -1899,7 +1899,7 @@ Fecha: ${new Date().toLocaleString()}
                     {t('pathforms_label')}
                   </h2>
                   <p className="text-sm text-black-500 ">
-                    Habilita esta opción para mostrar las formas decorativas que aparecen en el fondo de la página. 
+                    {t('pathforms_hint')} 
                   </p>
               
                   <div className="flex items-center gap-3">
