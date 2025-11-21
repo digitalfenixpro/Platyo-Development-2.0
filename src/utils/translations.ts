@@ -1932,7 +1932,7 @@ const translations: Record<Language, Translations> = {
     support_account: 'Cuenta y Configuración',
     support_other: 'Otro',
     message_label: 'Mensaje *',
-    contact_email_label: 'Email de Contacto',
+    contact_email_label: 'Email de Contacto *',
     contact_phone_label: 'Teléfono de Contacto',
     send_ticket_button: 'Enviar Ticket',
     ticket_sent_title: 'Ticket Enviado',
