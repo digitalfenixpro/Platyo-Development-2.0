@@ -3489,6 +3489,7 @@ const translations: Record<Language, Translations> = {
     secondary_text_color_label: 'Secondary Text Color',
     secondary_text_color_hint: 'Descriptions and subtitles',
     pathforms_label: 'Enable or disable Pathforms'
+    pathforms_hint: 'Enable this option to display the decorative shapes that appear in the background of the page.',
     billing_settings_title: 'Billing Settings',
     billing_settings_subtitle: 'Legal and tax information for generating valid order tickets in Colombia',
     commercial_name_label: 'Trade Name *',
