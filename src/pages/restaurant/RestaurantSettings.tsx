@@ -2227,7 +2227,7 @@ Fecha: ${new Date().toLocaleString()}
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                         <div className="space-y-2">
                           <label className="block text-sm font-medium text-gray-700">
-                            Rango de Numeración - Desde *
+                            {t('numbering_range_label')}
                           </label>
                           <input
                             type="number"
