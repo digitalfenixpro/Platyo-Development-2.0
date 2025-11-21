@@ -760,7 +760,7 @@ export const PublicMenu: React.FC = () => {
               className="text-gray-600"
               style={{ fontFamily: theme.primary_font || 'Inter' }}
             >
-              No se encontraron productos
+              {t('noProductsFound')}
             </p>
           </div>
         ) : (
