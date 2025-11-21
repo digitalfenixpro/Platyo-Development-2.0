@@ -2590,7 +2590,7 @@ Fecha: ${new Date().toLocaleString()}
                   </label>
                 </div>
                 <p className="text-xs text-gray-600 mb-4">
-                  Sube una imagen que aparecerá al hacer clic en el botón de promociones en el menú público
+                  {t('vertical_promo_image_hint')}
                 </p>
                 <div className="space-y-2">
                   {formData.settings.promo?.vertical_promo_image && (
