@@ -2842,7 +2842,7 @@ Fecha: ${new Date().toLocaleString()}
                 </div>
               </div>
               <div className="text-sm text-gray-600">
-                Ticket ID: {selectedTicket.id} • {new Date(selectedTicket.createdAt).toLocaleString()}
+                {t('ticket_id_label')} {selectedTicket.id} • {new Date(selectedTicket.createdAt).toLocaleString()}
               </div>
             </div>
 
