@@ -2918,7 +2918,7 @@ Fecha: ${new Date().toLocaleString()}
             {/* Admin Notes (if any) */}
             {selectedTicket.adminNotes && (
               <div>
-                <h4 className="text-md font-medium text-gray-900 mb-3">Notas Adicionales</h4>
+                <h4 className="text-md font-medium text-gray-900 mb-3">{t('additional_notes_title')}</h4>
                 <div className="bg-gray-50 border border-gray-200 rounded-lg p-4">
                   <p className="text-sm text-gray-700 whitespace-pre-wrap">{selectedTicket.adminNotes}</p>
                 </div>
