@@ -2400,7 +2400,7 @@ Fecha: ${new Date().toLocaleString()}
 
                   <div className="space-y-2">
                     <label className="block text-sm font-medium text-gray-700">
-                      Mensaje final del ticket (opcional)
+                      {t('ticket_final_message_label')}
                     </label>
                     <textarea
                       value={formData.settings.billing?.mensajeFinalTicket || ''}
