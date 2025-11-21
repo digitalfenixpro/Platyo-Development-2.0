@@ -2895,7 +2895,7 @@ Fecha: ${new Date().toLocaleString()}
                     <div className="text-xs text-green-600 mt-3 pt-3 border-t border-green-200">
                       <div className="flex items-center">
                         <Calendar className="w-3 h-3 mr-1" />
-                        Respondido el: {new Date(selectedTicket.responseDate).toLocaleString()}
+                        {t('support_information_response')} {new Date(selectedTicket.responseDate).toLocaleString()}
                       </div>
                     </div>
                   )}
