@@ -2711,7 +2711,7 @@ Fecha: ${new Date().toLocaleString()}
 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Teléfono de Contacto (Opcional)
+                    {t('contact_phone_label')}
                   </label>
                   <input
                     type="tel"
