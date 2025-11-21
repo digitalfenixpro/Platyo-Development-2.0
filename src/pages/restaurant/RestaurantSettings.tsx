@@ -2650,10 +2650,7 @@ Fecha: ${new Date().toLocaleString()}
                 <div className="flex items-center gap-2 mb-2">
                   <Star className="w-5 h-5 text-orange-600" />
                   <label className="block text-sm font-medium text-gray-700">
-                    Productos</label>
-                  <label className="block text-sm font-medium text-gray-700">
-                    Destacados 
-                  </label>
+                    Productos Destacados</label>
                   <label className="block text-sm font-medium text-gray-700">
                     (Máximo 5)
                   </label>
