@@ -2622,7 +2622,7 @@ Fecha: ${new Date().toLocaleString()}
                 <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center shadow-md mx-auto mb-3 md:mb-4">
                   <HelpCircle className="w-8 h-8 md:w-10 md:h-10 text-white" />
                 </div>
-                <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">Centro de Soporte</h3>
+                <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">{t('technical_support_title')}</h3>
                 <p className="text-gray-600">
                   ¿Necesitas ayuda? Completa el formulario y nuestro equipo te contactará pronto.
                 </p>
