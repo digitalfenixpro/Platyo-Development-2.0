@@ -1796,7 +1796,7 @@ Fecha: ${new Date().toLocaleString()}
 
                   <div className="space-y-3">
                     <label className="block text-sm font-medium text-gray-700">
-                      Color Texto Primario
+                      {t('primary_text_color_label')}
                     </label>
                     <div className="flex gap-2">
                       <input
@@ -1812,7 +1812,7 @@ Fecha: ${new Date().toLocaleString()}
                           onChange={(e) => updateFormData('settings.theme.primary_text_color', e.target.value)}
                           className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm font-mono"
                         />
-                        <p className="text-xs text-gray-500 mt-1">Títulos y textos principales</p>
+                        <p className="text-xs text-gray-500 mt-1">{t('primary_text_color_hint')}</p>
                       </div>
                     </div>
                   </div>
