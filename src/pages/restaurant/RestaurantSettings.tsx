@@ -2314,7 +2314,7 @@ Fecha: ${new Date().toLocaleString()}
                 <div className="space-y-6">
                   <div className="space-y-4">
                     <label className="block text-sm font-medium text-gray-700">
-                      ¿Mostrar logo en el ticket?
+                      {t('show_logo_on_ticket_label')}
                     </label>
                     <div className="flex items-center gap-6">
                       <label className="flex items-center gap-2 cursor-pointer">
