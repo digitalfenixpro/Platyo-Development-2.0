@@ -1860,6 +1860,7 @@ const translations: Record<Language, Translations> = {
     billing_settings_title: 'Configuración de Facturación',
     restaurant_info_billing_title: 'Información del Restaurante',
     commercial_name_label: 'Nombre Comercial *',
+    commercial_name_hint: 'El nombre que aparecerá en los tickets'
     social_reason_label: 'Razón Social *',
     nit_label: 'NIT *',
     tax_regime_label: 'Régimen Tributario *',
@@ -3493,6 +3494,7 @@ const translations: Record<Language, Translations> = {
     billing_settings_title: 'Billing Settings',
     billing_settings_subtitle: 'Legal and tax information for generating valid order tickets in Colombia',
     commercial_name_label: 'Trade Name *',
+    commercial_name_hint: 'The name that will appear on the tickets'
     social_reason_label: 'Legal Name *',
     nit_label: 'NIT *',
     tax_regime_label: 'Tax Regime *',
