@@ -2138,7 +2138,7 @@ Fecha: ${new Date().toLocaleString()}
 
                     <div className="space-y-2">
                       <label className="block text-sm font-medium text-gray-700">
-                        ¿Responsable de IVA? *
+                        {t('taxRegimeIvaQuestion')}
                       </label>
                       <div className="flex items-center gap-6 h-12">
                         <label className="flex items-center gap-2 cursor-pointer">
