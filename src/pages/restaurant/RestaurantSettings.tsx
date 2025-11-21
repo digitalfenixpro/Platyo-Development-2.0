@@ -2260,14 +2260,14 @@ Fecha: ${new Date().toLocaleString()}
               <div className="bg-gradient-to-br from-gray-50 to-gray-50 rounded-xl p-6 border border-gray-100">
                 <h4 className="text-md font-semibold text-gray-900 mb-4 flex items-center gap-2">
                   <DollarSign className="w-5 h-5 text-yellow-600" />
-                  Configuración de Propina
+                  {t('tax_tip_settings_title')}
                 </h4>
 
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <div className="flex-1">
                       <label className="block text-sm font-medium text-gray-700 mb-2">
-                        ¿Aplicar propina sugerida? *
+                        {t('suggested_tip_label')}
                       </label>
                       <div className="flex items-center gap-6">
                         <label className="flex items-center gap-2 cursor-pointer">
