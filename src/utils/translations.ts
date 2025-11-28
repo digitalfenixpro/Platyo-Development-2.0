@@ -820,6 +820,9 @@ interface Translations {
   footerEmail: string;
   footerPhone: string;
   footerRights: string;
+
+  // Public Menu
+  charging_public_menu: string;
 }
 
 const translations: Record<Language, Translations> = {
