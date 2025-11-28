@@ -29,7 +29,7 @@ import Pathtop from '../../components/public/Pathformtop.tsx'; /*DF:componenetes
 import Pathbottom from '../../components/public/Pathformbottom.tsx'; /*DF:componenetes pathform*/
 import Pathleft from '../../components/public/Pathformleft.tsx'; /*DF:componenetes pathform*/
 import { FloatingFooter } from '../../components/public/FloatingFooter.tsx'; /*DF:componenetes pathform*/
-import { Language } from '../utils/translations';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 export const PublicMenu: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
