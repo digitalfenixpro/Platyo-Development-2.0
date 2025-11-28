@@ -663,7 +663,7 @@ export const PublicMenu: React.FC = () => {
                   fontFamily: theme.primary_font || 'Inter',
                 }}
               >
-                {t('todos_button')}
+                VER TODOS
               </button>
               {/* Mapeo de Categorías */}
               {categories.map((category) => (
