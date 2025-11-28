@@ -12,7 +12,7 @@ import {
   Phone,
   TikTok,
   Facebook,
-  Instagram,A
+  Instagram,
   Globe,
   AlignLeft,
 } from 'lucide-react';
