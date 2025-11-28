@@ -34,6 +34,7 @@ import { useLanguage } from '../../contexts/LanguageContext';
 export const PublicMenu: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const { items: cartItems } = useCart();
+  const { t } = useLanguage();
   const [restaurant, setRestaurant] = useState<Restaurant | null>(null);
   const [categories, setCategories] = useState<Category[]>([]);
   const [products, setProducts] = useState<Product[]>([]);
