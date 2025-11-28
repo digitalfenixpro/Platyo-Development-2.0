@@ -760,7 +760,7 @@ export const PublicMenu: React.FC = () => {
               className="text-gray-600"
               style={{ fontFamily: theme.primary_font || 'Inter' }}
             >
-              {t('noProductsFound')}
+              No se encuentra ningun producto indicado
             </p>
           </div>
         ) : (
@@ -1058,7 +1058,7 @@ export const PublicMenu: React.FC = () => {
                 fontFamily: theme.primary_font || 'Poppins',
               }}
             >
-              {t('businessHours')}
+              Horas de Apertura
             </h3>
             <div className="space-y-3">
               {restaurant.settings.business_hours &&
