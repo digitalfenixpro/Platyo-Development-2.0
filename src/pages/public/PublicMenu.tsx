@@ -611,7 +611,7 @@ export const PublicMenu: React.FC = () => {
               fontFamily: theme.primary_font || 'Poppins',
             }}
           >
-            Productos Destacados x2
+            {t('presenting_featured_products1')}
           </h2>
           <div className="flex items-left justify-left gap-1">
             {[1, 2, 3, 4, 5].map((i) => (
