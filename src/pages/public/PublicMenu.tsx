@@ -598,7 +598,7 @@ export const PublicMenu: React.FC = () => {
           <p
             className="text-xl"
             style={{
-              color: textColor,a
+              color: secondaryTextColor,
               fontFamily: theme.secondary_font || 'Poppins',
             }}
           >
