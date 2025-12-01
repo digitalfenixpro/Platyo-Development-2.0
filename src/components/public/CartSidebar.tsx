@@ -20,7 +20,7 @@ export const CartSidebar: React.FC<CartSidebarProps> = ({ isOpen, onClose, onChe
   const theme = restaurant?.settings?.theme;
   const primaryColor = theme?.primary_color || '#FFC700';
   const secondaryTextColor = theme.secondary_text_color || '#6b7280';
-    const cardBackgroundColor = theme.card_background_color || '#f9fafb';
+  const cardBackgroundColor = theme.card_background_color || '#f9fafb';
   const currency = restaurant?.settings?.currency || 'USD';
 
   if (!isOpen) return null;
