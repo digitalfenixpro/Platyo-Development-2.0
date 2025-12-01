@@ -286,7 +286,7 @@ export const PublicMenu: React.FC = () => {
       {/*SE AGREGARON TODOS LOS SVG*/}
       {theme?.pathform &&  (
       <Pathleft
-        color={primaryColor}
+        color={secondaryColor}
         className="
           absolute   
           opacity-90
@@ -305,7 +305,7 @@ export const PublicMenu: React.FC = () => {
       )}
       {theme?.pathform &&  (
       <Pathbottom
-        color={primaryColor}
+        color={secondaryColor}
         className="
           /* Versión móvil */
           absolute 
@@ -332,7 +332,7 @@ export const PublicMenu: React.FC = () => {
       )}
      {theme?.pathform &&  (
       <Pathtop
-        color={primaryColor}
+        color={secondaryColor}
         className="
           /* Versión móvil */
           md:absolute 
