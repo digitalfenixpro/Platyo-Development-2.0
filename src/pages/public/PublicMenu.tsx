@@ -595,7 +595,7 @@ export const PublicMenu: React.FC = () => {
         <div className="text-left px-[15px]  md:px-[210px] md:-mt-[9px] md:-mb-[30px] scale-[0.85]">
           {' '}
           {/*DF:pasar toda esta seccion completa*/}
-          <h4
+          <h3
             className="text-xl"
             style={{
               color: secondaryTextColor,
@@ -603,7 +603,7 @@ export const PublicMenu: React.FC = () => {
             }}
           >
             Productos Destacados
-          </h4>
+          </h3>
           <h2
             className="text-5xl font-bold "
             style={{
