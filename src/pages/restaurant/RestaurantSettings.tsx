@@ -1311,6 +1311,8 @@ Fecha: ${new Date().toLocaleString()}
                     }}
                     className="flex flex-col items-center gap-2 p-3 rounded-lg border-2 border-gray-200 hover:border-blue-500 hover:shadow-lg transition-all"
                   >
+
+                    <h4 className="text-md font-semibold text-gray-900 mb-4">Light themes</h4>
                     <div className="flex flex-col gap-1 w-full">
                       <div className="h-6 rounded-t" style={{ backgroundColor: '#d64545' }}></div>
                       <div className="flex gap-1">
