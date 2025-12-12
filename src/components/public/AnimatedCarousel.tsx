@@ -169,7 +169,7 @@ export const AnimatedCarousel: React.FC<AnimatedCarouselProps> = ({
                 <h3
                   className="font-bold text-lg md:text-xl p-4 text-center truncate w-full"
                   style={{
-                    color: textColor,
+                    color: secondaryTextColor,
                     fontFamily,
                     textTransform: "uppercase",
                   }}
