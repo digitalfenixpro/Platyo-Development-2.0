@@ -1577,20 +1577,20 @@ Fecha: ${new Date().toLocaleString()}
                   <button
                     type="button"
                     onClick={() => {
-                      updateFormData('settings.theme.primary_color', '#5a6a81');
-                      updateFormData('settings.theme.secondary_color', '#1e40af');
-                      updateFormData('settings.theme.menu_background_color', '#0f172a');
-                      updateFormData('settings.theme.card_background_color', '#1e293b');
-                      updateFormData('settings.theme.primary_text_color', '#f1f5f9');
-                      updateFormData('settings.theme.secondary_text_color', '#e2e8f0');
+                      updateFormData('settings.theme.primary_color', '#ff3b3b');
+                      updateFormData('settings.theme.secondary_color', '#1e1e1e');
+                      updateFormData('settings.theme.menu_background_color', '#121212');
+                      updateFormData('settings.theme.card_background_color', '#1c1c1c');
+                      updateFormData('settings.theme.primary_text_color', '#ffffff');
+                      updateFormData('settings.theme.secondary_text_color', '#cfcfcf');
                     }}
                     className="flex flex-col items-center gap-2 p-3 rounded-lg border-2 border-gray-200 hover:border-blue-500 hover:shadow-lg transition-all"
                   >
                     <div className="flex flex-col gap-1 w-full">
-                      <div className="h-6 rounded-t" style={{ backgroundColor: '#5a6a81' }}></div>
+                      <div className="h-6 rounded-t" style={{ backgroundColor: '#ff3b3b' }}></div>
                       <div className="flex gap-1">
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#f1f5f9' }}></div>
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#0f172a' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#ffffff' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#121212' }}></div>
                       </div>
                     </div>
                     <span className="text-xs font-medium text-gray-700">Midnight</span>
