@@ -1387,7 +1387,7 @@ Fecha: ${new Date().toLocaleString()}
                         <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#f2fffa' }}></div>
                       </div>
                     </div>
-                    <span className="text-xs font-medium text-gray-700">Nature Green</span>
+                    <span className="text-xs font-medium text-gray-700">Mint Green</span>
                   </button>
 
                   <button
