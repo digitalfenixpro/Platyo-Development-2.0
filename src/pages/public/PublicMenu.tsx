@@ -598,7 +598,7 @@ export const PublicMenu: React.FC = () => {
           <h3
             className="text-xl"
             style={{
-              color: secondaryTextColor,
+              color: primaryTextColor,
               fontFamily: theme.secondary_font || 'Poppins',
             }}
           >
@@ -607,7 +607,7 @@ export const PublicMenu: React.FC = () => {
           <h2
             className="text-5xl font-bold "
             style={{
-              color: secondaryTextColor,
+              color: primaryTextColor,
               fontFamily: theme.primary_font || 'Poppins',
             }}
           >
