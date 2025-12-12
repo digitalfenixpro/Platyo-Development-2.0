@@ -1604,7 +1604,7 @@ Fecha: ${new Date().toLocaleString()}
                       updateFormData('settings.theme.menu_background_color', '#161616');
                       updateFormData('settings.theme.card_background_color', '#1f1f1f');
                       updateFormData('settings.theme.primary_text_color', '#ffffff');
-                      updateFormData('settings.theme.secondary_text_color', '#cccccc');
+                      updateFormData('settings.theme.secondary_text_color', '#808080');
                     }}
                     className="flex flex-col items-center gap-2 p-3 rounded-lg border-2 border-gray-200 hover:border-blue-500 hover:shadow-lg transition-all"
                   >
@@ -1626,7 +1626,7 @@ Fecha: ${new Date().toLocaleString()}
                       updateFormData('settings.theme.menu_background_color', '#12151a');
                       updateFormData('settings.theme.card_background_color', '#1c2025');
                       updateFormData('settings.theme.primary_text_color', '#ffffff');
-                      updateFormData('settings.theme.secondary_text_color', '#808080');
+                      updateFormData('settings.theme.secondary_text_color', '#e8e8e8');
                     }}
                     className="flex flex-col items-center gap-2 p-3 rounded-lg border-2 border-gray-200 hover:border-blue-500 hover:shadow-lg transition-all"
                   >
