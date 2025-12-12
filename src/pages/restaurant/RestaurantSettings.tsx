@@ -1692,7 +1692,7 @@ Fecha: ${new Date().toLocaleString()}
                       updateFormData('settings.theme.menu_background_color', '#1a120f');
                       updateFormData('settings.theme.card_background_color', '#241a15');
                       updateFormData('settings.theme.primary_text_color', '#ffffff');
-                      updateFormData('settings.theme.secondary_text_color', '#d8c6b8');
+                      updateFormData('settings.theme.secondary_text_color', '#431919');
                     }}
                     className="flex flex-col items-center gap-2 p-3 rounded-lg border-2 border-gray-200 hover:border-blue-500 hover:shadow-lg transition-all"
                   >
