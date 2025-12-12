@@ -1298,6 +1298,8 @@ Fecha: ${new Date().toLocaleString()}
                 <h4 className="text-sm md:text-md font-semibold text-gray-900 mb-3 md:mb-4">{t('color_templates_title')}</h4>
                 <p className="text-sm text-gray-600 mb-4">{t('color_templates_subtitle')}</p>
 
+                <h4 className="text-md font-semibold text-gray-900 mb-4">Light themes</h4>
+                
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-6">
                   <button
                     type="button"
@@ -1312,7 +1314,6 @@ Fecha: ${new Date().toLocaleString()}
                     className="flex flex-col items-center gap-2 p-3 rounded-lg border-2 border-gray-200 hover:border-blue-500 hover:shadow-lg transition-all"
                   >
 
-                    <h4 className="text-md font-semibold text-gray-900 mb-4">Light themes</h4>
                     <div className="flex flex-col gap-1 w-full">
                       <div className="h-6 rounded-t" style={{ backgroundColor: '#d64545' }}></div>
                       <div className="flex gap-1">
