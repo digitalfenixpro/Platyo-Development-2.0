@@ -1463,20 +1463,20 @@ Fecha: ${new Date().toLocaleString()}
                   <button
                     type="button"
                     onClick={() => {
-                      updateFormData('settings.theme.primary_color', '#14532d');
-                      updateFormData('settings.theme.secondary_color', '#7c3aed');
-                      updateFormData('settings.theme.menu_background_color', '#ecfdf5');
-                      updateFormData('settings.theme.card_background_color', '#ffffff');
-                      updateFormData('settings.theme.primary_text_color', '#1e293b');
+                      updateFormData('settings.theme.primary_color', '#f09042');
+                      updateFormData('settings.theme.secondary_color', '#f09042');
+                      updateFormData('settings.theme.menu_background_color', '#1F7872');
+                      updateFormData('settings.theme.card_background_color', '#0b413e');
+                      updateFormData('settings.theme.primary_text_color', '#ffffff');
                       updateFormData('settings.theme.secondary_text_color', '#ffffff');
                     }}
                     className="flex flex-col items-center gap-2 p-3 rounded-lg border-2 border-gray-200 hover:border-violet-500 hover:shadow-lg transition-all"
                   >
                     <div className="flex flex-col gap-1 w-full">
-                      <div className="h-6 rounded-t" style={{ backgroundColor: '#14532d' }}></div>
+                      <div className="h-6 rounded-t" style={{ backgroundColor: '#f09042' }}></div>
                       <div className="flex gap-1">
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#1e293b' }}></div>
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#ecfdf5' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#ffffff' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#1F7872' }}></div>
                       </div>
                     </div>
                     <span className="text-xs font-medium text-gray-700">Forest Calm</span>
