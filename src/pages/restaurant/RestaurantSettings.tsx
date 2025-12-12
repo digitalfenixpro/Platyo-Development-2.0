@@ -1434,9 +1434,10 @@ Fecha: ${new Date().toLocaleString()}
                     <span className="text-xs font-medium text-gray-700">Soft Purple</span>
                   </button>
                 </div>
+                
 <h4 className="text-md font-semibold text-gray-900 mb-4">Colorful themes</h4>
-                <div>
-                  
+                
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-6">
                   <button
                     type="button"
                     onClick={() => {
