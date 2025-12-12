@@ -1415,20 +1415,20 @@ Fecha: ${new Date().toLocaleString()}
                   <button
                     type="button"
                     onClick={() => {
-                      updateFormData('settings.theme.primary_color', '#8b5cf6');
-                      updateFormData('settings.theme.secondary_color', '#0891b2');
-                      updateFormData('settings.theme.menu_background_color', '#f5f3ff');
+                      updateFormData('settings.theme.primary_color', '#9a63e8');
+                      updateFormData('settings.theme.secondary_color', '#e6d8ff');
+                      updateFormData('settings.theme.menu_background_color', '#fbf7ff');
                       updateFormData('settings.theme.card_background_color', '#ffffff');
-                      updateFormData('settings.theme.primary_text_color', '#1e1b4b');
+                      updateFormData('settings.theme.primary_text_color', '#3c2670');
                       updateFormData('settings.theme.secondary_text_color', '#ffffff');
                     }}
                     className="flex flex-col items-center gap-2 p-3 rounded-lg border-2 border-gray-200 hover:border-cyan-500 hover:shadow-lg transition-all"
                   >
                     <div className="flex flex-col gap-1 w-full">
-                      <div className="h-6 rounded-t" style={{ backgroundColor: '#8b5cf6' }}></div>
+                      <div className="h-6 rounded-t" style={{ backgroundColor: '#9a63e8' }}></div>
                       <div className="flex gap-1">
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#1e1b4b' }}></div>
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#f5f3ff' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#3c2670' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#fbf7ff' }}></div>
                       </div>
                     </div>
                     <span className="text-xs font-medium text-gray-700">Soft Purple</span>
