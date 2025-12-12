@@ -1441,23 +1441,23 @@ Fecha: ${new Date().toLocaleString()}
                   <button
                     type="button"
                     onClick={() => {
-                      updateFormData('settings.theme.primary_color', '#0ea5e9');
-                      updateFormData('settings.theme.secondary_color', '#db2777');
-                      updateFormData('settings.theme.menu_background_color', '#f0f9ff');
-                      updateFormData('settings.theme.card_background_color', '#ffffff');
-                      updateFormData('settings.theme.primary_text_color', '#0c4a6e');
+                      updateFormData('settings.theme.primary_color', '#FF7A00');
+                      updateFormData('settings.theme.secondary_color', '#1A8C3A');
+                      updateFormData('settings.theme.menu_background_color', '#00150E');
+                      updateFormData('settings.theme.card_background_color', '#022015');
+                      updateFormData('settings.theme.primary_text_color', '#ffffff');
                       updateFormData('settings.theme.secondary_text_color', '#ffffff');
                     }}
                     className="flex flex-col items-center gap-2 p-3 rounded-lg border-2 border-gray-200 hover:border-pink-500 hover:shadow-lg transition-all"
                   >
                     <div className="flex flex-col gap-1 w-full">
-                      <div className="h-6 rounded-t" style={{ backgroundColor: '#0ea5e9' }}></div>
+                      <div className="h-6 rounded-t" style={{ backgroundColor: '#FF7A00' }}></div>
                       <div className="flex gap-1">
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#0c4a6e' }}></div>
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#f0f9ff' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#ffffff' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#00150E' }}></div>
                       </div>
                     </div>
-                    <span className="text-xs font-medium text-gray-700">Ice Blue</span>
+                    <span className="text-xs font-medium text-gray-700">Orange Brutally</span>
                   </button>
 
                   <button
