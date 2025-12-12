@@ -1371,20 +1371,20 @@ Fecha: ${new Date().toLocaleString()}
                   <button
                     type="button"
                     onClick={() => {
-                      updateFormData('settings.theme.primary_color', '#16a34a');
-                      updateFormData('settings.theme.secondary_color', '#991b1b');
-                      updateFormData('settings.theme.menu_background_color', '#f0fdf4');
+                      updateFormData('settings.theme.primary_color', '#2ea88c');
+                      updateFormData('settings.theme.secondary_color', '#c6f4e6');
+                      updateFormData('settings.theme.menu_background_color', '#f2fffa');
                       updateFormData('settings.theme.card_background_color', '#ffffff');
-                      updateFormData('settings.theme.primary_text_color', '#1e293b');
+                      updateFormData('settings.theme.primary_text_color', '#124437');
                       updateFormData('settings.theme.secondary_text_color', '#ffffff');
                     }}
                     className="flex flex-col items-center gap-2 p-3 rounded-lg border-2 border-gray-200 hover:border-red-600 hover:shadow-lg transition-all"
                   >
                     <div className="flex flex-col gap-1 w-full">
-                      <div className="h-6 rounded-t" style={{ backgroundColor: '#16a34a' }}></div>
+                      <div className="h-6 rounded-t" style={{ backgroundColor: '#2ea88c' }}></div>
                       <div className="flex gap-1">
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#1e293b' }}></div>
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#f0fdf4' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#124437' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#f2fffa' }}></div>
                       </div>
                     </div>
                     <span className="text-xs font-medium text-gray-700">Nature Green</span>
