@@ -1349,20 +1349,20 @@ Fecha: ${new Date().toLocaleString()}
                   <button
                     type="button"
                     onClick={() => {
-                      updateFormData('settings.theme.primary_color', '#f59e0b');
-                      updateFormData('settings.theme.secondary_color', '#059669');
-                      updateFormData('settings.theme.menu_background_color', '#fffbeb');
+                      updateFormData('settings.theme.primary_color', '#d6a800');
+                      updateFormData('settings.theme.secondary_color', '#ffef9a');
+                      updateFormData('settings.theme.menu_background_color', '#fffbea');
                       updateFormData('settings.theme.card_background_color', '#ffffff');
-                      updateFormData('settings.theme.primary_text_color', '#1e293b');
+                      updateFormData('settings.theme.primary_text_color', '#4a3b00');
                       updateFormData('settings.theme.secondary_text_color', '#ffffff');
                     }}
                     className="flex flex-col items-center gap-2 p-3 rounded-lg border-2 border-gray-200 hover:border-emerald-500 hover:shadow-lg transition-all"
                   >
                     <div className="flex flex-col gap-1 w-full">
-                      <div className="h-6 rounded-t" style={{ backgroundColor: '#f59e0b' }}></div>
+                      <div className="h-6 rounded-t" style={{ backgroundColor: '#d6a800' }}></div>
                       <div className="flex gap-1">
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#1e293b' }}></div>
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#fffbeb' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#4a3b00' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#fffbea' }}></div>
                       </div>
                     </div>
                     <span className="text-xs font-medium text-gray-700">Golden Day</span>
