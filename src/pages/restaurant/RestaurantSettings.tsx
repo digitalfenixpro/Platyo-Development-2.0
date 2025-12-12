@@ -1302,12 +1302,12 @@ Fecha: ${new Date().toLocaleString()}
                   <button
                     type="button"
                     onClick={() => {
-                      updateFormData('settings.theme.primary_color', '#e6735c');
-                      updateFormData('settings.theme.secondary_color', '#f4c095');
-                      updateFormData('settings.theme.menu_background_color', '#fff8f3');
+                      updateFormData('settings.theme.primary_color', '#99d600');
+                      updateFormData('settings.theme.secondary_color', '#ffea00');
+                      updateFormData('settings.theme.menu_background_color', '#f7ffe5');
                       updateFormData('settings.theme.card_background_color', '#ffffff');
-                      updateFormData('settings.theme.primary_text_color', '#3b2f2f');
-                      updateFormData('settings.theme.secondary_text_color', '#6f6464');
+                      updateFormData('settings.theme.primary_text_color', '#223400');
+                      updateFormData('settings.theme.secondary_text_color', '#556633');
                     }}
                     className="flex flex-col items-center gap-2 p-3 rounded-lg border-2 border-gray-200 hover:border-blue-500 hover:shadow-lg transition-all"
                   >
