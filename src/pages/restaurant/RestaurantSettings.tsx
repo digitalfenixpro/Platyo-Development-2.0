@@ -1327,23 +1327,23 @@ Fecha: ${new Date().toLocaleString()}
                   <button
                     type="button"
                     onClick={() => {
-                      updateFormData('settings.theme.primary_color', '#f97316');
-                      updateFormData('settings.theme.secondary_color', '#334155');
-                      updateFormData('settings.theme.menu_background_color', '#fff7ed');
+                      updateFormData('settings.theme.primary_color', '#ff8d4a');
+                      updateFormData('settings.theme.secondary_color', '#ffd3b3');
+                      updateFormData('settings.theme.menu_background_color', '#fff5ec');
                       updateFormData('settings.theme.card_background_color', '#ffffff');
-                      updateFormData('settings.theme.primary_text_color', '#1e293b');
+                      updateFormData('settings.theme.primary_text_color', '#5a321c');
                       updateFormData('settings.theme.secondary_text_color', '#ffffff');
                     }}
                     className="flex flex-col items-center gap-2 p-3 rounded-lg border-2 border-gray-200 hover:border-slate-700 hover:shadow-lg transition-all"
                   >
                     <div className="flex flex-col gap-1 w-full">
-                      <div className="h-6 rounded-t" style={{ backgroundColor: '#f97316' }}></div>
+                      <div className="h-6 rounded-t" style={{ backgroundColor: '#ff8d4a' }}></div>
                       <div className="flex gap-1">
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#1e293b' }}></div>
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#fff7ed' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#5a321c' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#fff5ec' }}></div>
                       </div>
                     </div>
-                    <span className="text-xs font-medium text-gray-700">Sunset Glow</span>
+                    <span className="text-xs font-medium text-gray-700">Peach Cake</span>
                   </button>
 
                   <button
