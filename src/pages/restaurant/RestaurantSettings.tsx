@@ -1551,23 +1551,23 @@ Fecha: ${new Date().toLocaleString()}
                   <button
                     type="button"
                     onClick={() => {
-                      updateFormData('settings.theme.primary_color', '#fb7185');
-                      updateFormData('settings.theme.secondary_color', '#f3f4f6');
-                      updateFormData('settings.theme.menu_background_color', '#fff1f2');
-                      updateFormData('settings.theme.card_background_color', '#ffffff');
-                      updateFormData('settings.theme.primary_text_color', '#1e293b');
+                      updateFormData('settings.theme.primary_color', '#F59E0B');
+                      updateFormData('settings.theme.secondary_color', '#F59E0B');
+                      updateFormData('settings.theme.menu_background_color', '#14532D');
+                      updateFormData('settings.theme.card_background_color', '#062814');
+                      updateFormData('settings.theme.primary_text_color', '#FFFFFF');
                       updateFormData('settings.theme.secondary_text_color', '#ffffff');
                     }}
                     className="flex flex-col items-center gap-2 p-3 rounded-lg border-2 border-gray-200 hover:border-gray-900 hover:shadow-lg transition-all"
                   >
                     <div className="flex flex-col gap-1 w-full">
-                      <div className="h-6 rounded-t" style={{ backgroundColor: '#fb7185' }}></div>
+                      <div className="h-6 rounded-t" style={{ backgroundColor: '#F59E0B' }}></div>
                       <div className="flex gap-1">
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#1e293b' }}></div>
-                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#fff1f2' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#FFFFFF' }}></div>
+                        <div className="flex-1 h-8 rounded" style={{ backgroundColor: '#14532D' }}></div>
                       </div>
                     </div>
-                    <span className="text-xs font-medium text-gray-700">Coral Wave</span>
+                    <span className="text-xs font-medium text-gray-700">Green Forest</span>
                   </button>
                 </div>
                 
