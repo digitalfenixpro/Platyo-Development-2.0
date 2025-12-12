@@ -18,7 +18,6 @@ export const AnimatedCarousel: React.FC<AnimatedCarouselProps> = ({
   products,
   primaryColor,
   secundaryColor,
-  secondaryTextColor,
   textColor,
   cardBackgroundColor = '#ffffff',
   fontFamily = 'Poppins',
