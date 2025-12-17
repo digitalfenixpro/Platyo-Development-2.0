@@ -602,7 +602,7 @@ export const PublicMenu: React.FC = () => {
               fontFamily: theme.secondary_font || 'Poppins',
             }}
           >
-            Productos Destacados
+            {t('featured_products_title')}
           </h3>
           <h2
             className="text-5xl font-bold "
